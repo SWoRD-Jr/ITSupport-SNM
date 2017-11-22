@@ -1,0 +1,210 @@
+<!-- Right side column. Contains the navbar and content of the page -->
+<aside class="right-side">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1 class="pull-left"><?php _e('Web Services'); ?><small> <?php _e('Manage web services'); ?></small></h1>
+        <div class="pull-right"><?php if(in_array("addLicense",$perms)) { ?><a class="btn btn-primary btn-sm btn-flat" href="?route=inventory/webservices/create"><?php _e('NEW WEB SERVICE'); ?></a><?php } ?></div>
+        <div style="clear:both"></div>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <?php if(!empty($statusmessage)): ?>
+        <div class="row"><div class='col-md-12'><div class="alert alert-<?php print $statusmessage["type"]; ?> alert-auto" role="alert"><?php print __($statusmessage["message"]); ?></div></div></div>
+        <?php endif; ?>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box box-primary">
+                    <div class="nav-tabs-custom">
+                        <ul class="nav nav-tabs">
+                            <?php
+                            //$i=0;
+                            foreach ($accountnumbers as $accountnumber) { 
+                                //$i=$i+1;
+                                echo '<li';
+                                    if($accountnumber['id'] ==1){
+                                        echo ' class="active">';
+                                    }else{
+                                        echo '>';
+                                    }
+                                echo '<a href="#Account'.$accountnumber['id'].'" data-toggle="tab">'.$accountnumber['accountname'].'</a></li>';
+
+                            }
+                            ?>
+                            
+                            <li class="dropdown pull-right">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Masters <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Web Service Accounts</a></li>
+                                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Web Service Categories</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            
+                            
+                            
+                            <?php
+                            //$x=0;
+                            foreach ($accountids as $accountid) { 
+                                //$x=$x+1;
+                                if ($accountid['id'] == 1){ 
+                                    echo '<div class="tab-pane active" id="Account'.$accountid['id'].'">';
+                            ?>
+                            <div class="table-responsive">
+                                <table id="Table<?php echo $accountid['id']; ?>" class="table table-striped table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th><?php _e('Client'); ?></th>
+                                            <th><?php _e('Domain Name'); ?></th>
+                                            <th><?php _e('Category'); ?></th>
+                                            <th><?php _e('Supplier'); ?></th>
+                                            <th><?php _e('Expiry'); ?></th>
+                                            <th><?php _e('Remarks'); ?></th>
+                                            <th class="text-right"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                <?php foreach ($webservices as $webservice) {
+                                    if ($webservice['accountid'] == $accountid['id']){ ?>
+                                    
+                                    <tr>
+                                            <td><?php if($webservice['clientid'] != 0) { ?> <a href='<?php if(in_array("manageClient",$perms)) { ?>?route=clients/manage&id=<?php echo $webservice['clientid']; ?><?php } else echo "#"; ?>'><span class='label' style="background-color:#FFF;color:#0073b7;border:1px solid #0073b7;"><?php echo getSingleValue("clients","name",$webservice['clientid']); }?></span></a></td>
+                                            <td><?php echo $webservice['domainname']; ?></td>
+                                            <td><span class='label' style='background-color:#FFF;color:<?php echo getSingleValue("webservicecategories","color",$webservice['categoryid']); ?>;border:1px solid <?php echo getSingleValue("webservicecategories","color",$webservice['categoryid']); ?>'><?php echo getSingleValue("webservicecategories","name",$webservice['categoryid']); ?></span></td>
+                                            <td><?php echo getSinglevalue("View1", "name", $webservice['id']); ?>
+                                            </td>
+                                            <td><?php echo $webservice['expirydate']; ?></td>
+                                            <td><?php echo $webservice['remarks']; ?></td>
+                                            <td>
+                                                <div class='pull-right'>
+                                                    <div class="btn-group">
+                                                        <?php if(in_array("manageLicense",$perms)) { ?><a href='?route=inventory/webservices/manage&id=<?php echo $webservice['id']; ?>' class='btn btn-flat btn-primary btn-sm'><i class='fa fa-eye'></i></a><?php } ?>
+                                                        <?php if(in_array("editLicense",$perms)) { ?><a href='?route=inventory/webservices/manage&id=<?php echo $webservice['id']; ?>&section=edit' class='btn btn-flat btn-success btn-sm'><i class='fa fa-edit'></i></a><?php } ?>
+                                                        <?php if(in_array("deleteLicense",$perms)) { ?><a href='#' onClick='showM("?modal=webservices/delete&reroute=inventory/webservices&routeid=&id=<?php echo $webservice['id']; ?>&section=");return false' class='btn btn-flat btn-danger btn-sm'><i class='fa fa-trash-o'></i></a><?php } ?>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+ 
+                                <?php }} ?>
+                            
+                            <?php 
+                                echo '</tbody></table></div></div>';
+                                }else if ($accountid['id'] >1){
+                                    echo '<div class="tab-pane" id="Account'.$accountid['id'].'">';
+                            ?>        
+                                  <div class="table-responsive">
+                                <table id="Table<?php echo $accountid['id']; ?>" class="table table-striped table-hover table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th><?php _e('Client'); ?></th>
+                                            <th><?php _e('Domain Name'); ?></th>
+                                            <th><?php _e('Category'); ?></th>
+                                            <th><?php _e('Supplier'); ?></th>
+                                            <th><?php _e('Expiry'); ?></th>
+                                            <th><?php _e('Remarks'); ?></th>
+                                            <th class="text-right"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                <?php foreach ($webservices as $webservice) {
+                                    if ($webservice['accountid'] == $accountid['id']){ ?>
+                                    
+                                    <tr>
+                                            <td><?php if($webservice['clientid'] != 0) { ?> <a href='<?php if(in_array("manageClient",$perms)) { ?>?route=clients/manage&id=<?php echo $webservice['clientid']; ?><?php } else echo "#"; ?>'><span class='label' style="background-color:#FFF;color:#0073b7;border:1px solid #0073b7;"><?php echo getSingleValue("clients","name",$webservice['clientid']); }?></span></a></td>
+                                            <td><?php echo $webservice['domainname']; ?></td>
+                                            <td><span class='label' style='background-color:#FFF;color:<?php echo getSingleValue("webservicecategories","color",$webservice['categoryid']); ?>;border:1px solid <?php echo getSingleValue("webservicecategories","color",$webservice['categoryid']); ?>'><?php echo getSingleValue("webservicecategories","name",$webservice['categoryid']); ?></span></td>
+                                            <td><?php echo getSinglevalue("View1", "name", $webservice['id']); ?>
+                                            </td>
+                                            <td><?php echo $webservice['expirydate']; ?></td>
+                                            <td><?php echo $webservice['remarks']; ?></td>
+                                            <td>
+                                                <div class='pull-right'>
+                                                    <div class="btn-group">
+                                                        <?php if(in_array("manageLicense",$perms)) { ?><a href='?route=inventory/webservices/manage&id=<?php echo $webservice['id']; ?>' class='btn btn-flat btn-primary btn-sm'><i class='fa fa-eye'></i></a><?php } ?>
+                                                        <?php if(in_array("editLicense",$perms)) { ?><a href='?route=inventory/webservices/manage&id=<?php echo $webservice['id']; ?>&section=edit' class='btn btn-flat btn-success btn-sm'><i class='fa fa-edit'></i></a><?php } ?>
+                                                        <?php if(in_array("deleteLicense",$perms)) { ?><a href='#' onClick='showM("?modal=webservices/delete&reroute=inventory/webservices&routeid=&id=<?php echo $webservice['id']; ?>&section=");return false' class='btn btn-flat btn-danger btn-sm'><i class='fa fa-trash-o'></i></a><?php } ?>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+ 
+                                <?php }}
+                                echo '</tbody></table></div></div>';
+                                                        }} ?>  
+                          
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section><!-- /.content -->
+</aside><!-- /.right-side -->
+<script>
+  $(function () {
+    <?php
+    foreach ($accountids as $accountid){
+    echo "$('#Table".$accountid['id']."').DataTable({\n";
+    echo "  'paging'      : true,\n";
+    echo "  'lengthChange': true,\n";
+    echo "  'searching'   : true,\n";
+    echo "  'ordering'    : true,\n";
+    echo "  'info'        : true,\n";
+    echo "  'autoWidth'   : true,\n";?>
+    "pageLength": <?php echo getConfigValue("table_records"); ?> ,
+    dom: '<"top col-md-6"l><"top col-md-6"f>rt<"bottom"><"row dt-margin"<"col-md-6"i><"col-md-6"p><"col-md-12"B>><"clear">',
+        buttons: [
+            {
+                extend:    'copyHtml5',
+                text:      '<i class="fa fa-files-o"></i>',
+                titleAttr: 'Copy'
+            },
+            {
+                extend:    'excelHtml5',
+                text:      '<i class="fa fa-file-excel-o"></i>',
+                titleAttr: 'Excel'
+            },
+            //{
+            //    extend:    'csvHtml5',
+            //    text:      '<i class="fa fa-file-text-o"></i>',
+            //    titleAttr: 'CSV'
+            //},
+            {
+                extend:    'pdfHtml5',
+                text:      '<i class="fa fa-file-pdf-o"></i>',
+                titleAttr: 'PDF'
+            }, 'print'
+            //{
+            //    extend:    'printHtml5',
+            //    text:      '<i class="fa fa-print"></i>',
+            //    titleAttr: 'Print'
+            //}
+        ],
+        "stateSave": true,
+        "fixedHeader": true,
+        "oLanguage": {
+            //"sSearch": "<i class='fa fa-search text-gray dTsearch pull-right'></i>",
+            "sEmptyTable": "<?php _e('No entries to show'); ?>",
+            "sZeroRecords": "<?php _e('Nothing found'); ?>",
+            "sInfo": "<?php _e('Showing'); ?> _START_ <?php _e('to'); ?> _END_ <?php _e('of'); ?> _TOTAL_ <?php _e('entries'); ?>",
+            "sInfoEmpty": "",
+            "oPaginate": {
+            "sNext": "<?php _e('Next'); ?>",
+                    "sPrevious": "<?php _e('Previous'); ?>",
+                    "sFirst": "<?php _e('First Page'); ?>",
+                    "sLast": "<?php _e('Last Page'); ?>"
+            }
+        },
+        //"columnDefs": [ { "orderable": true, "targets": - 1 } ],
+        colReorder: true,
+        fixedHeader: false,
+        responsive: true,
+        "pagingType": "full_numbers",
+            
+<?php echo "})\n";
+    } ?>
+  })
+</script>

@@ -1,0 +1,97 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 5, 2017, 9:56:08 AM
+    Author     : aseif
+*/
+
+.my-legend .legend-title {
+    text-align: right;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 90%;
+}
+.my-legend .legend-scale ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+}
+.my-legend .legend-scale ul li {
+    display: block;
+    float: left;
+    width: 80px;
+    margin-bottom: 6px;
+    text-align: center;
+    font-size: 80%;
+    list-style: none;
+}
+.my-legend ul.legend-labels li span {
+    display: block;
+    float: left;
+    height: 15px;
+    width: 80px;
+}
+
+.daysleft-red-bold{
+   color: red; 
+   font-weight: bold;
+   margin-top:4px;
+   display: inline;
+   font-size: 85%;
+   font-weight: bold;
+   line-height: 1;
+   text-align: center;
+   white-space: nowrap;
+   vertical-align: baseline;
+}
+
+.blink_me {
+  animation: blinker 1.5s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+
+    width: 42px;
+    height: 42px;
+    //padding: 8px;
+
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.anim1234 {
+    -webkit-animation: anim 8s infinite;
+    animation: anim 8s infinite linear;
+}
+
+@-webkit-keyframes anim {
+    from {-webkit-transform: rotateY(0deg);}
+    to {-webkit-transform: rotateY(360deg);}
+}
+
+@keyframes anim {
+    from {transform: rotateY(0deg);}
+    to {transform: rotateY(360deg);}
+}
+
+.btn-group .exportButtons{
+    margin-left: 20px;
+}
+
+#timespent .slider-selection {
+    background: #BABABA;
+}

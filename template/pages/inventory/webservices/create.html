@@ -1,0 +1,107 @@
+<!-- Right side column. Contains the navbar and content of the page -->
+<aside class="right-side">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1><?php _e('Web Services'); ?><small> <?php _e('Manage web services'); ?></small></h1>
+        <ol class="breadcrumb"><li><a href="?route=dashboard"><i class="fa fa-dashboard"></i> <?php _e('Home'); ?></a></li><li><?php _e('Inventory'); ?></li><li><a href="?route=inventory/webservices"><?php _e('Web Services'); ?></a></li><li class="active"><?php _e('Create'); ?></li></ol>
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <?php if(!empty($statusmessage)): ?>
+        <div class="row"><div class='col-md-12'><div class="alert alert-<?php print $statusmessage["type"]; ?> alert-auto" role="alert"><?php print __($statusmessage["message"]); ?></div></div></div>
+        <?php endif; ?>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title"><?php _e('Create New Web Service'); ?></h3>
+                    </div><!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <form role="form" method="post">
+
+                                    <?php if(!$isAdmin) { ?><input type="hidden" name="clientid" value="<?php echo $liu['clientid']; ?>"><?php } ?>
+                                    <div class="form-group">
+                                        <label for="categoryid"><?php _e('Category'); ?> *</label>
+                                        <select class="form-control select2 select2-hidden-accessible" id="categoryid" name="categoryid" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                                            <?php foreach ($categories as $category) { echo "<option value='".$category['id']."'>".$category['name']."</option>"; } ?>
+                                        </select>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="domainname"><?php _e('Domain Name'); ?> *</label>
+                                        <input type="text" class="form-control" id="domainname" name="domainname">
+                                    </div>
+                                    <div class="form-group date">
+                                        <label for="expirydate"><?php _e('Expiry'); ?></label>
+                                        
+                                        <div class="input-group">  
+                                            <span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                                            <input type="text" class="form-control pull-right" id="expirydate" name="expirydate" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                                        </div> 
+                                    </div>
+                                    <?php if($isAdmin) { ?>
+                                    <div class="form-group">
+                                        <label for="clientid"><?php _e('Client'); ?></label>
+                                        <select class="form-control select2 select2-hidden-accessible" id="clientid" name="clientid" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                                            <option value="0"><?php _e('None'); ?></option>
+                                            <?php foreach ($clients as $client) { echo "<option value='".$client['id']."'>".$client['name']."</option>"; } ?>
+                                        </select>
+                                    </div>
+                                    <?php } ?>
+
+                                    <div class="form-group">
+                                        <label for="accountid"><?php _e('Account Number'); ?></label>
+                                        <select class="form-control select2 select2-hidden-accessible" id="accountid" name="accountid" style="width: 100%;" tabindex="-1" aria-hidden="true">
+                                            <option value="0"><?php _e('None'); ?></option>
+                                            <?php foreach ($accountnumbers as $accountnumber) { echo "<option value='".$accountnumber['id']."'>".$accountnumber['accountnumber']."</option>"; } ?>
+                                        </select>
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label for="notes"><?php _e('Remarks'); ?></label>
+                                        <textarea class="form-control summernote" rows="5" id="remarks" name="remarks"></textarea>
+                                    </div>
+
+                                    <input type="hidden" name="action" value="addWebService">
+                                    <input type="hidden" name="route" value="inventory/webservices">
+                                    <input type="hidden" name="routeid" value="">
+
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary"><i class="fa fa-check"></i> <?php _e('Create'); ?></button>
+                                    </div>
+
+                                </form><!-- /.form -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section><!-- /.content -->
+</aside><!-- /.right-side -->
+<!--<script type="text/javascript">
+
+    function generateTag(_this) {
+
+        var tagprefix = $(_this).find(':selected').data("tagprefix");
+        var tagsufix = '<?php echo License::nextLicenseTag(); ?>';
+
+        document.getElementById("tag").value = tagprefix + tagsufix;
+    }
+
+</script>-->
+<script>
+    $(function () {
+        $('#expirydate').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true,
+            todayHighlight: true
+        })
+
+    })
+</script>

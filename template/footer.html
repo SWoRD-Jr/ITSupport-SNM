@@ -1,0 +1,167 @@
+
+<footer class="main-footer">
+    <div class="pull-right hidden-xs">
+        <b><?php _e('MAIN NAVIGATION'); ?></b> v2.65 &beta; <b>(a.seif)</b>
+    </div>
+    &nbsp;
+</footer>
+
+<div class="modal fade" id="myModal">
+    <form role="form" method="post" enctype="multipart/form-data">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </form><!-- /.form -->
+</div><!-- /.modal -->
+
+</div><!-- ./wrapper -->
+
+<!-- AdminLTE App -->
+<!--<script src="template/assets/dist/js/adminlte.min.js"></script>-->
+<!-- AdminLTE for demo purposes -->
+<!--<script src="template/assets/dist/js/demo.js"></script>-->
+<!-- jQuery 3 -->
+<!--<script src="template/assets/plugins/jQuery/jquery-3.2.1.min.js"></script>-->
+
+
+<!-- Full Calendar -->
+<script src="template/assets/plugins/moment/min/moment.min.js"></script>
+<script src="template/assets/plugins/fullcalendar/fullcalendar.min.js"></script>
+
+<!-- jQuery UI 1.11.4 -->
+<script src="template/assets/plugins/jQueryUI/jquery-ui.min.js"></script>
+
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+    $.widget.bridge('uibutton', $.ui.button);</script>
+<!-- Bootstrap 3.3.7 -->
+<script src="template/assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<!-- Bootstrap slider -->
+<script src="template/assets/plugins/bootstrap-slider/bootstrap-slider.min.js"></script>
+<!-- PACE -->
+<script src="template/assets/plugins/pace/pace.min.js"></script>
+<!-- Select2 -->
+<script src="template/assets/plugins/select2/select2.full.min.js"></script>
+
+<!-- DataTables -->
+<!--<script src="template/assets/plugins/datatables/datatables.min.js"></script>-->
+
+
+<!-- datepicker -->
+<script src="template/assets/plugins/datepicker/bootstrap-datepicker.js" type="text/javascript"></script>
+<!-- timepicker -->
+<script src="template/assets/plugins/timepicker/bootstrap-timepicker.min.js" type="text/javascript"></script>
+
+<!-- Summernote WYSIHTML5 -->
+<script src="template/assets/plugins/summernote/summernote.min.js" type="text/javascript"></script>
+<!-- CKEditor 
+<script src="template/assets/plugins/ckeditor/ckeditor.js" type="text/javascript"></script>-->
+<!-- bootstrap color picker -->
+<script src="template/assets/plugins/colorpicker/bootstrap-colorpicker.min.js"></script>
+<!-- Slimscroll -->
+<script src="template/assets/plugins/slimScroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+
+<!-- jQuery Knob -->
+<script src="template/assets/plugins/knob/jquery.knob.min.js"></script>
+<!-- FastClick -->
+<script src='template/assets/plugins/fastclick/fastclick.min.js'></script>
+<!-- Clipboard -->
+<script src='template/assets/plugins/clipboard/clipboard.min.js'></script>
+<!-- AdminLTE App -->
+<script src="template/assets/dist/js/app.min.js" type="text/javascript"></script>
+
+
+<script src="template/assets/app.js" type="text/javascript"></script>
+
+
+<script>
+$(function() {
+    //caches a jQuery object containing the header element
+    var navbar = $(".navbar");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 100) {
+            navbar.removeClass('navbar-static-top').addClass("navbar-fixed-top");
+        } else {
+            navbar.removeClass("navbar-fixed-top").addClass('navbar-static-top');
+        }
+    });
+    
+});
+
+$.fn.modal.Constructor.prototype.enforceFocus = function() {}; //fix select2 in modals not working
+
+
+</script>
+<script>
+
+
+$(document).ready(function() {
+    $("#dataTablesFull, #dataTablesFull2, #dataTablesFull3, #dataTablesFull4, #assetsTable, #licensesTable, #dataTablesFullNoOrder, #dataTablesFullDesc").DataTable( {
+        dom: '<"top col-md-6"l><"top col-md-6"f>rt<"bottom"><"row dt-margin"<"col-md-6"i><"col-md-6"p><"col-md-12"B>><"clear">',
+        buttons: [
+            {
+                extend:    'copyHtml5',
+                text:      '<i class="fa fa-files-o"></i>',
+                titleAttr: 'Copy'
+            },
+            {
+                extend:    'excelHtml5',
+                text:      '<i class="fa fa-file-excel-o"></i>',
+                titleAttr: 'Excel'
+            },
+            //{
+            //    extend:    'csvHtml5',
+            //    text:      '<i class="fa fa-file-text-o"></i>',
+            //    titleAttr: 'CSV'
+            //},
+            {
+                extend:    'pdfHtml5',
+                text:      '<i class="fa fa-file-pdf-o"></i>',
+                titleAttr: 'PDF'
+            }, 'print'
+            //{
+            //    extend:    'printHtml5',
+            //    text:      '<i class="fa fa-print"></i>',
+            //    titleAttr: 'Print'
+            //}
+        ],
+        "stateSave": true,
+        "fixedHeader": true,
+        "oLanguage": {
+            //"sSearch": "<i class="fa fa-search"></i>",
+            "sEmptyTable": "<?php _e('No entries to show'); ?>",
+            "sZeroRecords": "<?php _e('Nothing found'); ?>",
+            "sInfo": "<?php _e('Showing'); ?> _START_ <?php _e('to'); ?> _END_ <?php _e('of'); ?> _TOTAL_ <?php _e('entries'); ?>",
+            "sInfoEmpty": "",
+            "oPaginate": {
+            "sNext": "<?php _e('Next'); ?>",
+                    "sPrevious": "<?php _e('Previous'); ?>",
+                    "sFirst": "<?php _e('First Page'); ?>",
+                    "sLast": "<?php _e('Last Page'); ?>"
+            }
+        },
+        //"columnDefs": [ { "orderable": true, "targets": - 1 } ],
+        colReorder: true,
+        'paging'      : true,
+        'lengthChange': true,
+        'pageLength'  : <?php echo getConfigValue("table_records"); ?> ,
+        "pagingType": "full_numbers",
+        'searching'   : true,
+        'ordering'    : true,
+        'info'        : true,
+        'autoWidth'   : true,
+        fixedHeader: false,
+        //responsive: true,
+        
+    } );
+} );
+
+</script>
+
+</body>
+</html>

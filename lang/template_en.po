@@ -1,0 +1,3055 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-06-02 22:34+0300\n"
+"PO-Revision-Date: 2017-10-10 15:28+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ../../../wamp/www/git/support/template\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+
+#: footer.html:74 footer.html:96 footer.html:118
+msgid "No entries to show"
+msgstr "No entries to show"
+
+#: footer.html:75 footer.html:97 footer.html:119
+msgid "Nothing found"
+msgstr "Nothing found"
+
+#: footer.html:76 footer.html:98 footer.html:120
+msgid "Showing"
+msgstr "Showing"
+
+#: footer.html:76 footer.html:98 footer.html:120
+msgid "to"
+msgstr "to"
+
+#: footer.html:76 footer.html:98 footer.html:120
+msgid "of"
+msgstr "of"
+
+#: footer.html:76 footer.html:98 footer.html:120
+msgid "entries"
+msgstr "entries"
+
+#: footer.html:79 footer.html:101 footer.html:123
+msgid "Next"
+msgstr "Next"
+
+#: footer.html:80 footer.html:102 footer.html:124
+msgid "Previous"
+msgstr "Previous"
+
+#: footer.html:81 footer.html:103 footer.html:125
+msgid "First Page"
+msgstr "First Page"
+
+#: footer.html:82 footer.html:104 footer.html:126
+msgid "Last Page"
+msgstr "Last Page"
+
+#: forgot.html:34
+msgid "Enter email address to reset your password"
+msgstr "Enter email address to reset your password"
+
+#: forgot.html:40 pages/clients/manage.html:528 pages/people/contacts.html:23 pages/people/staff.html:23 pages/people/users.html:24
+#: pages/system/logs.html:60 pages/system/settings.html:20 signin.html:37
+msgid "Email"
+msgstr "Email"
+
+#: forgot.html:48 forgot.html:73
+msgid "Continue"
+msgstr "Continue"
+
+#: forgot.html:54 forgot.html:80
+msgid "Log In"
+msgstr "Log In"
+
+#: forgot.html:65
+msgid "New Password"
+msgstr "New Password"
+
+#: header.html:64
+msgid "Toggle navigation"
+msgstr "Toggle navigation"
+
+#: header.html:77
+msgid "Autorefresh dashboard, tickets lists and monitoring pages."
+msgstr "Autorefresh dashboard, tickets lists and monitoring pages."
+
+#: header.html:80 modals/checks/add.html:21 modals/checks/add.html:28 modals/checks/add.html:35 modals/checks/edit.html:23 modals/checks/edit.html:30
+#: modals/checks/edit.html:37
+msgid "Disabled"
+msgstr "Disabled"
+
+#: header.html:81
+msgid "Every 30 Seconds"
+msgstr "Every 30 Seconds"
+
+#: header.html:82
+msgid "Every 1 Minute"
+msgstr "Every 1 Minute"
+
+#: header.html:83
+msgid "Every 2 Minutes"
+msgstr "Every 2 Minutes"
+
+#: header.html:84
+msgid "Every 5 Minutes"
+msgstr "Every 5 Minutes"
+
+#: header.html:85
+msgid "Every 10 Minutes"
+msgstr "Every 10 Minutes"
+
+#: header.html:86
+msgid "Every 15 Minutes"
+msgstr "Every 15 Minutes"
+
+#: header.html:97
+msgid "Quick actions"
+msgstr "Quick actions"
+
+#: header.html:100 pages/clients/manage.html:32
+msgid "New Asset"
+msgstr "New Asset"
+
+#: header.html:101 pages/clients/manage.html:33
+msgid "New License"
+msgstr "New License"
+
+#: header.html:102
+msgid "New Client"
+msgstr "New Client"
+
+#: header.html:103 pages/clients/manage.html:31 pages/inventory/assets/manage.html:28 pages/projects/manage.html:27
+msgid "New Issue"
+msgstr "New Task"
+
+#: header.html:104 pages/clients/manage.html:35 pages/inventory/assets/manage.html:29
+msgid "New Ticket"
+msgstr "New Ticket"
+
+#: header.html:128
+msgid "Profile"
+msgstr "Profile"
+
+#: header.html:131
+msgid "Sign Out"
+msgstr "Sign Out"
+
+#: header.html:152
+msgid "Online"
+msgstr "Online"
+
+#: header.html:164
+msgid "Search..."
+msgstr "Search..."
+
+#: header.html:175
+msgid "MAIN NAVIGATION"
+msgstr "IT Office System"
+
+#: header.html:179 pages/dashboard.html:5 pages/dashboard.html:6
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: header.html:187 modals/kb/addArticle.html:29 modals/kb/addCategory.html:12 modals/kb/editArticle.html:29 modals/kb/editCategory.html:12
+#: pages/clients.html:5 pages/clients/manage.html:7 pages/dashboard.html:67 pages/search.html:67
+msgid "Clients"
+msgstr "Clients"
+
+#: header.html:195 pages/inventory/assets/create.html:6 pages/inventory/assets/manage.html:7 pages/inventory/licenses/create.html:6
+#: pages/inventory/webservices/create.html:6
+msgid "Inventory"
+msgstr "Inventory"
+
+#: header.html:199 pages/clients.html:36 pages/clients/manage.html:21 pages/clients/manage.html:51 pages/dashboard.html:24 pages/inventory/assets.html:5
+#: pages/inventory/assets/create.html:5 pages/inventory/assets/create.html:6 pages/inventory/assets/manage.html:8 pages/reports/assets.html:5
+#: pages/search.html:31
+msgid "Assets"
+msgstr "Assets"
+
+#: header.html:200 pages/clients.html:37 pages/clients/manage.html:22 pages/clients/manage.html:63 pages/dashboard.html:38 pages/inventory/licenses.html:5
+#: pages/inventory/licenses/create.html:5 pages/inventory/licenses/create.html:6 pages/inventory/licenses/manage.html:7 pages/reports/licenses.html:5
+#: pages/search.html:43 pages/reports/licenseexpiry.html:5
+msgid "Licenses"
+msgstr "Licenses"
+
+#: header.html:314
+msgid "Attributes"
+msgstr "Predefined Data"
+
+#: header.html:206 pages/inventory/attributes/assetcategories.html:5
+msgid "Asset Categories"
+msgstr "Asset Categories"
+
+#: header.html:207
+msgid "License Categories"
+msgstr "License Categories"
+
+#: header.html:208 pages/inventory/attributes/labels.html:5
+msgid "Status Labels"
+msgstr "Status Labels"
+
+#: header.html:209 pages/inventory/attributes/manufacturers.html:5
+msgid "Manufacturers"
+msgstr "Manufacturers"
+
+#: header.html:210
+msgid "Asset Models"
+msgstr "Asset Models"
+
+#: header.html:211 pages/inventory/attributes/locations.html:5
+msgid "Locations"
+msgstr "Locations"
+
+#: header.html:212 pages/inventory/attributes/suppliers.html:5
+msgid "Suppliers"
+msgstr "Suppliers"
+
+#: header.html:224 pages/clients.html:38 pages/clients/manage.html:23 pages/clients/manage.html:78 pages/dashboard.html:52 pages/projects.html:5
+#: pages/projects/manage.html:7 pages/search.html:55
+msgid "Projects"
+msgstr "Projects"
+
+#: header.html:232 pages/clients.html:40 pages/clients/manage.html:25 pages/inventory/assets/manage.html:23 pages/search.html:79
+#: pages/system/settings.html:23 pages/tickets/active.html:5 pages/tickets/all.html:5 pages/tickets/ar.html:5 pages/tickets/manage.html:6
+msgid "Tickets"
+msgstr "Tickets"
+
+#: header.html:236
+msgid "Awaiting Reply"
+msgstr "Awaiting Reply"
+
+#: header.html:237 pages/dashboard.html:191
+msgid "Active Tickets"
+msgstr "Active Tickets"
+
+#: header.html:238
+msgid "All Tickets"
+msgstr "All Tickets"
+
+#: header.html:246 pages/clients.html:41 pages/clients/manage.html:24 pages/inventory/assets/manage.html:22 pages/issues/active.html:5
+#: pages/issues/all.html:5 pages/projects/manage.html:21
+msgid "Issues"
+msgstr "Tasks"
+
+#: header.html:250 pages/dashboard.html:146
+msgid "Active Issues"
+msgstr "Active Tasks"
+
+#: header.html:251
+msgid "All Issues"
+msgstr "All Tasks"
+
+#: header.html:259 pages/kb.html:5
+msgid "Knowledge Base"
+msgstr "Knowledge Base"
+
+#: header.html:267 modals/checks/add.html:18 modals/checks/edit.html:20 pages/monitoring.html:5 pages/monitoring.html:6 pages/monitoring/manage.html:5
+#: pages/monitoring/manage.html:6
+msgid "Monitoring"
+msgstr "Monitoring"
+
+#: header.html:275 pages/reports.html:5 pages/reports.html:6 pages/reports/assets.html:6 pages/reports/licenses.html:6 pages/reports/licenseexpiry.html:6
+msgid "Reports"
+msgstr "Reports"
+
+#: header.html:283 pages/people/roles/add.html:6 pages/people/roles/edit.html:6 pages/people/staff/edit.html:5 pages/people/users/edit.html:5
+msgid "People"
+msgstr "People"
+
+#: header.html:287 pages/clients.html:39 pages/clients/manage.html:27 pages/clients/manage.html:90 pages/dashboard.html:79 pages/people/users.html:4
+#: pages/people/users/edit.html:5
+msgid "Users"
+msgstr "Users"
+
+#: header.html:288 pages/people/roles/add.html:34 pages/people/roles/edit.html:34 pages/people/staff.html:4
+msgid "Staff"
+msgstr "Staff"
+
+#: header.html:289 pages/people/roles.html:4 pages/people/roles/add.html:5 pages/people/roles/add.html:6 pages/people/roles/edit.html:5
+#: pages/people/roles/edit.html:6
+msgid "Roles"
+msgstr "Roles"
+
+#: header.html:290 pages/people/contacts.html:4
+msgid "Contacts"
+msgstr "Contacts"
+
+#: header.html:298 pages/system/logs.html:5 pages/system/settings.html:5 pages/tickets/manage.html:130
+msgid "System"
+msgstr "System"
+
+#: header.html:302 pages/system/preplies.html:5
+msgid "Predefined Replies"
+msgstr "Predefined Replies"
+
+#: header.html:303 pages/system/logs.html:4 pages/system/logs.html:5
+msgid "Logs"
+msgstr "Logs"
+
+#: header.html:304 pages/system/settings.html:4 pages/system/settings.html:5
+msgid "Settings"
+msgstr "Settings"
+
+#: modals/assetcategories/add.html:2
+msgid "New Asset Category"
+msgstr "New Asset Category"
+
+#: modals/assetcategories/add.html:5 modals/webservicecategories/add.html:5
+msgid "Category Name"
+msgstr "Category Name"
+
+#: modals/assetcategories/add.html:9 modals/assetcategories/edit.html:9 modals/labels/add.html:9 modals/labels/edit.html:8
+#: modals/licensecategories/add.html:8 modals/licensecategories/edit.html:8 modals/webservicecategories/add.html:9 modals/webservicecategories/edit.html:9
+msgid "Badge Color"
+msgstr "Badge Color"
+
+#: modals/assetcategories/add.html:19 modals/assetcategories/edit.html:19 modals/assets/assignLicense.html:25 modals/checks/add.html:46
+#: modals/checks/edit.html:50 modals/clients/add.html:32 modals/clients/assignAdmin.html:22 modals/clients/edit.html:34 modals/comments/add.html:31
+#: modals/comments/edit.html:31 modals/contacts/add.html:22 modals/contacts/edit.html:23 modals/credentials/add.html:57 modals/credentials/edit.html:57
+#: modals/escalationrules/add.html:145 modals/escalationrules/edit.html:144 modals/files/upload.html:26 modals/hosts/add.html:32
+#: modals/hosts/assignPeople.html:24 modals/hosts/edit.html:34 modals/issues/add.html:143 modals/issues/edit.html:146 modals/kb/addArticle.html:50
+#: modals/kb/addCategory.html:30 modals/kb/editArticle.html:52 modals/kb/editCategory.html:31 modals/labels/add.html:19 modals/labels/edit.html:18
+#: modals/languages/add.html:18 modals/licensecategories/add.html:17 modals/licensecategories/edit.html:18 modals/licenses/assignAsset.html:27
+#: modals/locations/add.html:27 modals/locations/edit.html:26 modals/manufacturers/add.html:13 modals/manufacturers/edit.html:15 modals/models/add.html:14
+#: modals/models/edit.html:16 modals/notifications/edit.html:34 modals/preplies/add.html:21 modals/preplies/edit.html:22 modals/projects/add.html:73
+#: modals/projects/assignAdmin.html:22 modals/projects/edit.html:74 modals/staff/add.html:38 modals/suppliers/add.html:46 modals/suppliers/edit.html:45
+#: modals/supportdepartments/add.html:13 modals/supportdepartments/edit.html:15 modals/tickets/add.html:158 modals/tickets/edit.html:165
+#: modals/users/add.html:52 modals/webservicecategories/add.html:19 modals/webservicecategories/edit.html:19
+#: modals/accountnumbers/add.html:27 modals/accountnumbers/edit.html:27
+msgid "Cancel"
+msgstr "Cancel"
+
+#: modals/assetcategories/add.html:20 modals/checks/add.html:47 modals/clients/add.html:33 modals/comments/add.html:32 modals/contacts/add.html:23
+#: modals/contacts/edit.html:24 modals/credentials/add.html:58 modals/escalationrules/add.html:146 modals/hosts/add.html:33 modals/issues/add.html:144
+#: modals/kb/addArticle.html:51 modals/kb/addCategory.html:31 modals/labels/add.html:20 modals/languages/add.html:19 modals/licensecategories/add.html:18
+#: modals/locations/add.html:28 modals/manufacturers/add.html:14 modals/models/add.html:15 modals/preplies/add.html:22 modals/projects/add.html:74
+#: modals/staff/add.html:39 modals/suppliers/add.html:47 modals/supportdepartments/add.html:14 modals/tickets/add.html:159 modals/users/add.html:53
+#: pages/inventory/assets/create.html:6 pages/inventory/assets/create.html:185 pages/inventory/licenses/create.html:6
+#: pages/inventory/licenses/create.html:83 pages/people/roles/add.html:6 pages/people/roles/add.html:214 modals/webservicecategories/add.html:20
+#: pages/inventory/webservices/create.html:6 pages/inventory/webservices/create.html:73 modals/accountnumbers/add.html:28
+msgid "Create"
+msgstr "Create"
+
+#: modals/assetcategories/delete.html:2 modals/kb/deleteCategory.html:1 pages/kb.html:50 pages/kb.html:66 modals/webservicecategories/delete.html:2
+msgid "Delete Category"
+msgstr "Delete Category"
+
+#: modals/assetcategories/delete.html:4 modals/contacts/delete.html:3 modals/labels/delete.html:3 modals/manufacturers/delete.html:3
+#: modals/suppliers/delete.html:3 modals/accountnumbers/delete.html:4
+msgid "Are you sure you want to delete this item?"
+msgstr "Are you sure you want to delete this item?"
+
+#: modals/assetcategories/delete.html:13 modals/assets/delete.html:12 modals/assets/unassignLicense.html:12 modals/checks/delete.html:12
+#: modals/clients/delete.html:12 modals/clients/unassignAdmin.html:12 modals/comments/delete.html:11 modals/contacts/delete.html:12
+#: modals/credentials/delete.html:11 modals/escalationrules/delete.html:11 modals/files/delete.html:14 modals/hosts/delete.html:12
+#: modals/hosts/unassignPeople.html:13 modals/issues/delete.html:11 modals/kb/deleteArticle.html:12 modals/kb/deleteCategory.html:12
+#: modals/labels/delete.html:12 modals/languages/delete.html:12 modals/licensecategories/delete.html:12 modals/licenses/delete.html:12
+#: modals/licenses/unassignAsset.html:11 modals/locations/delete.html:12 modals/manufacturers/delete.html:12 modals/models/delete.html:12
+#: modals/preplies/delete.html:12 modals/projects/delete.html:11 modals/roles/delete.html:11 modals/staff/delete.html:12 modals/suppliers/delete.html:12
+#: modals/supportdepartments/delete.html:12 modals/tickets/delete.html:11 modals/users/delete.html:12 pages/people/staff/edit.html:76 pages/profile.html:77
+#: modals/webservicecategories/delete.html:13 modals/accountnumbers/delete.html:13
+msgid "No"
+msgstr "No"
+
+#: modals/assetcategories/delete.html:14 modals/assets/delete.html:13 modals/assets/unassignLicense.html:13 modals/checks/delete.html:13
+#: modals/clients/delete.html:13 modals/clients/unassignAdmin.html:13 modals/comments/delete.html:12 modals/contacts/delete.html:13
+#: modals/credentials/delete.html:12 modals/escalationrules/delete.html:12 modals/files/delete.html:15 modals/hosts/delete.html:13
+#: modals/hosts/unassignPeople.html:14 modals/issues/delete.html:12 modals/kb/deleteArticle.html:13 modals/kb/deleteCategory.html:13
+#: modals/labels/delete.html:13 modals/languages/delete.html:13 modals/licensecategories/delete.html:13 modals/licenses/delete.html:13
+#: modals/licenses/unassignAsset.html:12 modals/locations/delete.html:13 modals/manufacturers/delete.html:13 modals/models/delete.html:13
+#: modals/preplies/delete.html:13 modals/projects/delete.html:12 modals/roles/delete.html:12 modals/staff/delete.html:13 modals/suppliers/delete.html:13
+#: modals/supportdepartments/delete.html:13 modals/tickets/delete.html:12 modals/users/delete.html:13 pages/people/staff/edit.html:75 pages/profile.html:76
+#: modals/webservicecategories/delete.html:14 modals/accountnumbers/delete.html:14
+msgid "Yes"
+msgstr "Yes"
+
+#: modals/assetcategories/edit.html:2 modals/kb/editCategory.html:1 pages/kb.html:49 pages/kb.html:65 modals/webservicecategories/edit.html:2
+msgid "Edit Category"
+msgstr "Edit Category"
+
+#: modals/assetcategories/edit.html:5 modals/checks/add.html:4 modals/checks/edit.html:6 modals/clients/add.html:7 modals/clients/edit.html:7
+#: modals/contacts/add.html:6 modals/contacts/edit.html:6 modals/files/upload.html:5 modals/hosts/add.html:17 modals/hosts/edit.html:18
+#: modals/kb/addArticle.html:7 modals/kb/addCategory.html:6 modals/kb/editArticle.html:8 modals/kb/editCategory.html:6 modals/labels/add.html:4
+#: modals/labels/edit.html:4 modals/languages/add.html:9 modals/licensecategories/add.html:4 modals/licensecategories/edit.html:4
+#: modals/preplies/add.html:6 modals/preplies/edit.html:6 modals/staff/add.html:12 modals/suppliers/view.html:7 modals/supportdepartments/add.html:4
+#: modals/supportdepartments/edit.html:4 modals/users/add.html:25 pages/clients.html:24 pages/clients/manage.html:250 pages/clients/manage.html:291
+#: pages/clients/manage.html:327 pages/clients/manage.html:527 pages/inventory/assets/manage.html:53 pages/inventory/assets/manage.html:195
+#: pages/inventory/assets/manage.html:244 pages/inventory/attributes/assetcategories.html:23 pages/inventory/attributes/labels.html:23
+#: pages/inventory/attributes/licensecategories.html:23 pages/inventory/attributes/locations.html:24 pages/inventory/attributes/manufacturers.html:23
+#: pages/inventory/attributes/suppliers.html:23 pages/inventory/licenses.html:25 pages/inventory/licenses/manage.html:93 pages/issues/active.html:23
+#: pages/issues/all.html:23 pages/kb.html:89 pages/monitoring/manage.html:28 pages/people/contacts.html:22 pages/people/roles/add.html:26
+#: pages/people/roles/edit.html:26 pages/people/staff.html:22 pages/people/staff/edit.html:32 pages/people/users.html:23 pages/people/users/edit.html:45
+#: pages/profile.html:24 pages/projects.html:24 pages/projects/manage.html:48 pages/reports/assets.html:24 pages/reports/licenses.html:24
+#: pages/reports/view.html:31 pages/reports/view.html:117 pages/reports/view.html:182 pages/reports/view.html:216 pages/reports/view.html:263
+#: pages/reports/view.html:297 pages/reports/view.html:350 pages/system/preplies.html:24 pages/system/settings.html:152 pages/system/settings.html:392
+#: pages/system/settings.html:434 pages/tickets/manage.html:229 pages/reports/licenseexpiry.html:24 modals/webservicecategories/edit.html:5
+#: pages/inventory/attributes/webservicecategories.html:24
+msgid "Name"
+msgstr "Name"
+
+#: modals/assetcategories/edit.html:20 modals/checks/edit.html:51 modals/clients/edit.html:35 modals/comments/edit.html:32 modals/credentials/edit.html:58
+#: modals/escalationrules/edit.html:145 modals/hosts/edit.html:35 modals/issues/edit.html:147 modals/kb/editArticle.html:53 modals/kb/editCategory.html:32
+#: modals/labels/edit.html:19 modals/licensecategories/edit.html:19 modals/locations/edit.html:27 modals/manufacturers/edit.html:16
+#: modals/models/edit.html:17 modals/notifications/edit.html:35 modals/preplies/edit.html:23 modals/projects/edit.html:75 modals/suppliers/edit.html:46
+#: modals/supportdepartments/edit.html:16 modals/tickets/edit.html:166 pages/inventory/assets/manage.html:583 pages/inventory/licenses/manage.html:208
+#: pages/people/roles/edit.html:213 pages/people/staff/edit.html:137 pages/people/users/edit.html:137 pages/profile.html:131 pages/projects/manage.html:281
+#: pages/tickets/manage.html:215 pages/inventory/webservices/manage.html:203 modals/webservicecategories/edit.html:20 modals/accountnumbers/edit.html:28
+msgid "Save"
+msgstr "Save"
+
+#: modals/assets/assignLicense.html:1 pages/inventory/assets/manage.html:32
+msgid "Assign License"
+msgstr "Assign License"
+
+#: modals/assets/assignLicense.html:4
+msgid "License"
+msgstr "License"
+
+#: modals/assets/assignLicense.html:26 modals/clients/assignAdmin.html:23 modals/hosts/assignPeople.html:25 modals/licenses/assignAsset.html:28
+#: modals/projects/assignAdmin.html:23
+msgid "Assign"
+msgstr "Assign"
+
+#: modals/assets/delete.html:1
+msgid "Delete Asset"
+msgstr "Delete Asset"
+
+#: modals/assets/delete.html:3
+msgid "Are you sure you want to delete this asset?"
+msgstr "Are you sure you want to delete this asset?"
+
+#: modals/assets/unassignLicense.html:1 modals/licenses/unassignAsset.html:1
+msgid "Delete Assignment"
+msgstr "Delete Assignment"
+
+#: modals/assets/unassignLicense.html:3 modals/clients/unassignAdmin.html:3 modals/hosts/unassignPeople.html:3 modals/licenses/unassignAsset.html:3
+#: modals/projects/unassignAdmin.html:3
+msgid "Are you sure you want to delete this assignment?"
+msgstr "Are you sure you want to delete this assignment?"
+
+#: modals/checks/add.html:1
+msgid "New Check"
+msgstr "New Check"
+
+#: modals/checks/add.html:8 modals/checks/edit.html:10 modals/credentials/add.html:35 modals/credentials/edit.html:35 modals/credentials/view.html:7
+#: modals/issues/add.html:13 modals/issues/edit.html:13 pages/clients/manage.html:491 pages/inventory/assets/manage.html:150
+msgid "Type"
+msgstr "Type"
+
+#: modals/checks/add.html:10 modals/checks/edit.html:12
+msgid "Service"
+msgstr "Service"
+
+#: modals/checks/add.html:14 modals/checks/edit.html:16
+msgid "Port"
+msgstr "Port"
+
+#: modals/checks/add.html:15 modals/checks/edit.html:17
+msgid "Port number to check"
+msgstr "Port number to check"
+
+#: modals/checks/add.html:20 modals/checks/add.html:27 modals/checks/add.html:34 modals/checks/edit.html:22 modals/checks/edit.html:29
+#: modals/checks/edit.html:36
+msgid "Enabled"
+msgstr "Enabled"
+
+#: modals/checks/add.html:25 modals/checks/edit.html:27
+msgid "Email Notifications"
+msgstr "Email Notifications"
+
+#: modals/checks/add.html:32 modals/checks/edit.html:34
+msgid "SMS Notifications"
+msgstr "SMS Notifications"
+
+#: modals/checks/delete.html:1
+msgid "Delete Check"
+msgstr "Delete Check"
+
+#: modals/checks/delete.html:3
+msgid "Are you sure you want to delete this check?"
+msgstr "Are you sure you want to delete this check?"
+
+#: modals/checks/edit.html:1
+msgid "Edit Check"
+msgstr "Edit Check"
+
+#: modals/clients/add.html:1
+msgid "Create New Client"
+msgstr "Create New Client"
+
+#: modals/clients/add.html:14 modals/clients/edit.html:14
+msgid "Asset Tag Prefix"
+msgstr "Asset Tag Prefix"
+
+#: modals/clients/add.html:20 modals/clients/edit.html:20
+msgid "License Tag Prefix"
+msgstr "License Tag Prefix"
+
+#: modals/clients/assignAdmin.html:1 modals/projects/assignAdmin.html:1 pages/clients/manage.html:39 pages/projects/manage.html:31
+msgid "Assign Staff"
+msgstr "Assign Staff"
+
+#: modals/clients/assignAdmin.html:4 modals/projects/assignAdmin.html:4
+msgid "Staff Member"
+msgstr "Staff Member"
+
+#: modals/clients/delete.html:1
+msgid "Delete Client"
+msgstr "Delete Client"
+
+#: modals/clients/delete.html:3
+msgid "Are you sure you want to delete this client?"
+msgstr "Are you sure you want to delete this client?"
+
+#: modals/clients/edit.html:1
+msgid "Edit Client"
+msgstr "Edit Client"
+
+#: modals/clients/unassignAdmin.html:1 modals/projects/unassignAdmin.html:1
+msgid "Unassign Staff"
+msgstr "Unassign Staff"
+
+#: modals/comments/add.html:1
+msgid "Add Comment"
+msgstr "Add Comment"
+
+#: modals/comments/add.html:7 modals/comments/edit.html:6 modals/hosts/assignPeople.html:4
+msgid "Account"
+msgstr "Account"
+
+#: modals/comments/add.html:18 modals/comments/edit.html:17
+msgid "Comment"
+msgstr "Comment"
+
+#: modals/comments/delete.html:1
+msgid "Delete Comment"
+msgstr "Delete Comment"
+
+#: modals/comments/delete.html:3
+msgid "Are you sure you want to delete this comment?"
+msgstr "Are you sure you want to delete this comment?"
+
+#: modals/comments/edit.html:1
+msgid "Edit Comment"
+msgstr "Edit Comment"
+
+#: modals/contacts/add.html:1
+msgid "Create New Contact"
+msgstr "Create New Contact"
+
+#: modals/contacts/add.html:11 modals/contacts/edit.html:11 modals/staff/add.html:16 modals/suppliers/add.html:21 modals/suppliers/edit.html:19
+#: modals/suppliers/view.html:19 modals/tickets/edit.html:76 modals/users/add.html:29 pages/people/staff/edit.html:38 pages/people/users/edit.html:51
+#: pages/profile.html:29 pages/tickets/manage.html:305
+msgid "Email Address"
+msgstr "Email Address"
+
+#: modals/contacts/delete.html:1
+msgid "Delete Contact"
+msgstr "Delete Contact"
+
+#: modals/contacts/edit.html:1
+msgid "Edit Contact"
+msgstr "Edit Contact"
+
+#: modals/credentials/add.html:1
+msgid "Add Credential"
+msgstr "Add Credential"
+
+#: modals/credentials/add.html:6 modals/credentials/edit.html:6 modals/hosts/add.html:6 modals/hosts/edit.html:6 modals/issues/add.html:30
+#: modals/issues/edit.html:30 modals/locations/add.html:11 modals/locations/edit.html:10 modals/projects/add.html:22 modals/projects/edit.html:21
+#: modals/tickets/add.html:62 modals/tickets/edit.html:30 modals/users/add.html:6 pages/clients/manage.html:251 pages/inventory/assets/create.html:26
+#: pages/inventory/assets/manage.html:65 pages/inventory/assets/manage.html:441 pages/inventory/attributes/locations.html:23
+#: pages/inventory/licenses.html:26 pages/inventory/licenses/create.html:27 pages/inventory/licenses/manage.html:43
+#: pages/inventory/licenses/manage.html:141 pages/monitoring.html:92 pages/monitoring/manage.html:36 pages/people/users.html:22
+#: pages/people/users/edit.html:22 pages/projects.html:25 pages/projects/manage.html:49 pages/reports.html:24 pages/reports.html:63
+#: pages/reports/assets.html:27 pages/reports/licenses.html:26 pages/reports/view.html:15 pages/reports/view.html:28 pages/reports/view.html:59
+#: pages/reports/view.html:101 pages/reports/view.html:114 pages/reports/view.html:145 pages/reports/view.html:180 pages/reports/view.html:213
+#: pages/reports/view.html:248 pages/reports/view.html:261 pages/reports/view.html:294 pages/reports/view.html:334 pages/reports/view.html:347
+#: pages/system/logs.html:59 pages/system/logs.html:89 pages/tickets/manage.html:309 pages/reports/licenseexpiry.html:26
+#: pages/inventory/webservices/create.html:47 pages/inventory/webservices/manage.html:51 pages/inventory/webservices/manage.html:157
+msgid "Client"
+msgstr "Client"
+
+#: modals/credentials/add.html:17 modals/credentials/edit.html:17 modals/issues/add.html:60 modals/issues/edit.html:59 modals/licenses/assignAsset.html:4
+#: modals/tickets/add.html:76 modals/tickets/edit.html:87 pages/clients/manage.html:490 pages/reports/view.html:30 pages/reports/view.html:61
+#: pages/reports/view.html:116 pages/reports/view.html:147 pages/tickets/manage.html:349
+msgid "Asset"
+msgstr "Asset"
+
+#: modals/credentials/add.html:19 modals/credentials/edit.html:19 modals/hosts/add.html:8 modals/hosts/edit.html:8 modals/issues/add.html:32
+#: modals/issues/add.html:62 modals/issues/add.html:78 modals/issues/edit.html:32 modals/issues/edit.html:61 modals/issues/edit.html:81
+#: modals/locations/add.html:13 modals/locations/edit.html:12 modals/projects/add.html:24 modals/projects/edit.html:23 modals/tickets/add.html:19
+#: modals/tickets/add.html:64 modals/tickets/edit.html:18 modals/tickets/edit.html:64 modals/tickets/edit.html:89 pages/clients/manage.html:381
+#: pages/clients/manage.html:453 pages/clients/manage.html:454 pages/inventory/assets/create.html:28 pages/inventory/assets/create.html:138
+#: pages/inventory/assets/create.html:148 pages/inventory/assets/manage.html:298 pages/inventory/assets/manage.html:370
+#: pages/inventory/assets/manage.html:371 pages/inventory/assets/manage.html:443 pages/inventory/assets/manage.html:538
+#: pages/inventory/assets/manage.html:546 pages/inventory/licenses/create.html:29 pages/inventory/licenses/create.html:68
+#: pages/inventory/licenses/manage.html:144 pages/inventory/licenses/manage.html:155 pages/inventory/licenses/manage.html:190 pages/issues/active.html:77
+#: pages/issues/all.html:77 pages/system/settings.html:220 pages/system/settings.html:333 pages/tickets/active.html:68 pages/tickets/active.html:69
+#: pages/tickets/all.html:68 pages/tickets/all.html:69 pages/tickets/ar.html:68 pages/tickets/ar.html:69 pages/tickets/manage.html:296
+#: pages/tickets/manage.html:297 pages/tickets/manage.html:313 pages/tickets/manage.html:327 pages/tickets/manage.html:341 pages/tickets/manage.html:353
+#: pages/inventory/webservices/manage.html:131 pages/inventory/webservices/manage.html:160 pages/inventory/webservices/manage.html:184
+#: pages/inventory/webservices/create.html:49 pages/inventory/webservices/create.html:58 modals/accountnumbers/add.html:15
+#: modals/accountnumbers/edit.html:15
+msgid "None"
+msgstr "None"
+
+#: modals/credentials/add.html:39 modals/credentials/edit.html:39 modals/credentials/view.html:11 pages/clients/manage.html:492
+#: pages/inventory/assets/manage.html:151 pages/system/settings.html:258 pages/system/settings.html:323
+msgid "Username"
+msgstr "Username"
+
+#: modals/credentials/add.html:43 modals/credentials/edit.html:43 modals/credentials/view.html:15 modals/staff/add.html:28 modals/users/add.html:41
+#: pages/clients/manage.html:493 pages/inventory/assets/manage.html:152 pages/people/staff/edit.html:56 pages/people/users/edit.html:69
+#: pages/system/settings.html:262 pages/system/settings.html:327 signin.html:41
+msgid "Password"
+msgstr "Password"
+
+#: modals/credentials/add.html:46 modals/credentials/edit.html:46
+msgid "Generate password"
+msgstr "Generate password"
+
+#: modals/credentials/delete.html:1
+msgid "Delete Credential"
+msgstr "Delete Credential"
+
+#: modals/credentials/delete.html:3
+msgid "Are you sure you want to delete this credential?"
+msgstr "Are you sure you want to delete this credential?"
+
+#: modals/credentials/edit.html:1
+msgid "Edit Credential"
+msgstr "Edit Credential"
+
+#: modals/credentials/edit.html:45
+msgid "Enter or generate new password to change."
+msgstr "Enter or generate new password to change."
+
+#: modals/credentials/view.html:1 pages/people/roles/add.html:115 pages/people/roles/edit.html:113
+msgid "View Credential"
+msgstr "View Credential"
+
+#: modals/credentials/view.html:23
+msgid "Copy & Close"
+msgstr "Copy & Close"
+
+#: modals/credentials/view.html:24 modals/kb/viewArticle.html:11 modals/preplies/insert.html:20 modals/suppliers/view.html:37
+msgid "Close"
+msgstr "Close"
+
+#: modals/escalationrules/add.html:1
+msgid "Add Escalation Rule"
+msgstr "Add Escalation Rule"
+
+#: modals/escalationrules/add.html:7 modals/escalationrules/edit.html:7
+msgid "Rule Name"
+msgstr "Rule Name"
+
+#: modals/escalationrules/add.html:19 modals/escalationrules/add.html:80 modals/escalationrules/edit.html:19 modals/escalationrules/edit.html:81
+#: modals/tickets/edit.html:124 pages/clients/manage.html:458 pages/dashboard.html:204 pages/inventory/assets/manage.html:375 pages/tickets/active.html:73
+#: pages/tickets/all.html:73 pages/tickets/ar.html:73 pages/tickets/manage.html:277
+msgid "Open"
+msgstr "Open"
+
+#: modals/escalationrules/add.html:20 modals/escalationrules/add.html:81 modals/escalationrules/edit.html:20 modals/escalationrules/edit.html:82
+#: modals/issues/add.html:94 modals/issues/edit.html:96 modals/tickets/edit.html:125 pages/clients/manage.html:377 pages/clients/manage.html:459
+#: pages/dashboard.html:205 pages/inventory/assets/manage.html:294 pages/inventory/assets/manage.html:376 pages/issues/active.html:73
+#: pages/issues/all.html:73 pages/projects/manage.html:145 pages/tickets/active.html:74 pages/tickets/all.html:74 pages/tickets/ar.html:74
+#: pages/tickets/manage.html:278
+msgid "In Progress"
+msgstr "In Progress"
+
+#: modals/escalationrules/add.html:21 modals/escalationrules/add.html:82 modals/escalationrules/edit.html:21 modals/escalationrules/edit.html:83
+#: modals/tickets/edit.html:126 pages/clients/manage.html:460 pages/dashboard.html:206 pages/inventory/assets/manage.html:377 pages/tickets/active.html:75
+#: pages/tickets/all.html:75 pages/tickets/ar.html:75 pages/tickets/manage.html:279
+msgid "Answered"
+msgstr "Answered"
+
+#: modals/escalationrules/add.html:22 modals/escalationrules/add.html:83 modals/escalationrules/edit.html:22 modals/escalationrules/edit.html:84
+#: modals/tickets/edit.html:127 pages/clients/manage.html:461 pages/dashboard.html:207 pages/inventory/assets/manage.html:378 pages/tickets/active.html:76
+#: pages/tickets/all.html:76 pages/tickets/ar.html:76 pages/tickets/manage.html:280
+msgid "Reopened"
+msgstr "Reopened"
+
+#: modals/escalationrules/add.html:23 modals/escalationrules/add.html:84 modals/escalationrules/edit.html:23 modals/escalationrules/edit.html:85
+#: modals/tickets/edit.html:128 pages/clients/manage.html:462 pages/dashboard.html:208 pages/inventory/assets/manage.html:379 pages/tickets/active.html:77
+#: pages/tickets/all.html:77 pages/tickets/ar.html:77 pages/tickets/manage.html:281
+msgid "Closed"
+msgstr "Closed"
+
+#: modals/escalationrules/add.html:29 modals/escalationrules/add.html:90 modals/escalationrules/edit.html:29 modals/escalationrules/edit.html:91
+#: modals/issues/add.html:101 pages/tickets/manage.html:285
+msgid "Priority"
+msgstr "Priority"
+
+#: modals/escalationrules/add.html:31 modals/escalationrules/add.html:93 modals/escalationrules/edit.html:31 modals/escalationrules/edit.html:94
+#: modals/issues/add.html:103 modals/issues/edit.html:105 modals/tickets/add.html:142 modals/tickets/edit.html:114
+msgid "Low"
+msgstr "Low"
+
+#: modals/escalationrules/add.html:32 modals/escalationrules/add.html:94 modals/escalationrules/edit.html:32 modals/escalationrules/edit.html:95
+#: modals/issues/add.html:104 modals/issues/edit.html:106 modals/tickets/add.html:143 modals/tickets/edit.html:115
+msgid "Normal"
+msgstr "Normal"
+
+#: modals/escalationrules/add.html:33 modals/escalationrules/add.html:95 modals/escalationrules/edit.html:33 modals/escalationrules/edit.html:96
+#: modals/issues/add.html:105 modals/issues/edit.html:107 modals/tickets/add.html:144 modals/tickets/edit.html:116
+msgid "High"
+msgstr "High"
+
+#: modals/escalationrules/add.html:40 modals/escalationrules/edit.html:41
+msgid "Process at"
+msgstr "Process at"
+
+#: modals/escalationrules/add.html:56 modals/escalationrules/edit.html:57
+msgid "Per ticket escalation rules are processed one time only."
+msgstr "Per ticket escalation rules are processed one time only."
+
+#: modals/escalationrules/add.html:61 modals/escalationrules/edit.html:62
+msgid "Time Elapsed (minutes)"
+msgstr "Time Elapsed (minutes)"
+
+#: modals/escalationrules/add.html:66 modals/escalationrules/edit.html:67
+msgid "Minutes since last reply, leave empty to ignore."
+msgstr "Minutes since last reply, leave empty to ignore."
+
+#: modals/escalationrules/add.html:79 modals/escalationrules/add.html:92 modals/escalationrules/add.html:103 modals/escalationrules/edit.html:80
+#: modals/escalationrules/edit.html:93 modals/escalationrules/edit.html:104
+msgid "- No Change -"
+msgstr "- No Change -"
+
+#: modals/escalationrules/add.html:101 modals/escalationrules/edit.html:102 modals/issues/add.html:44 modals/tickets/add.html:44
+msgid "Assign To"
+msgstr "Assign To"
+
+#: modals/escalationrules/add.html:114 modals/escalationrules/edit.html:115
+msgid "Add the reply below to the ticket"
+msgstr "Add the reply below to the ticket"
+
+#: modals/escalationrules/add.html:117 modals/escalationrules/edit.html:118
+msgid "Notify Admins"
+msgstr "Notify Admins"
+
+#: modals/escalationrules/add.html:122 modals/escalationrules/edit.html:123 pages/tickets/manage.html:81
+msgid "Reply"
+msgstr "Reply"
+
+#: modals/escalationrules/delete.html:1
+msgid "Delete Rule"
+msgstr "Delete Rule"
+
+#: modals/escalationrules/delete.html:3
+msgid "Are you sure you want to delete this rule?"
+msgstr "Are you sure you want to delete this rule?"
+
+#: modals/escalationrules/edit.html:1
+msgid "Edit Escalation Rule"
+msgstr "Edit Escalation Rule"
+
+#: modals/files/delete.html:1
+msgid "Delete File"
+msgstr "Delete File"
+
+#: modals/files/delete.html:4
+msgid "Are you sure you want to delete this file?"
+msgstr "Are you sure you want to delete this file?"
+
+#: modals/files/upload.html:1 pages/clients/manage.html:38 pages/inventory/assets/manage.html:31 pages/projects/manage.html:30
+msgid "Upload File"
+msgstr "Upload File"
+
+#: modals/files/upload.html:10
+msgid "File"
+msgstr "File"
+
+#: modals/files/upload.html:12
+msgid "Max upload file size on your server is"
+msgstr "Max upload file size on your server is"
+
+#: modals/files/upload.html:27 pages/people/roles/add.html:138 pages/people/roles/edit.html:137
+msgid "Upload"
+msgstr "Upload"
+
+#: modals/hosts/add.html:1
+msgid "New Host"
+msgstr "New Host"
+
+#: modals/hosts/add.html:22 modals/hosts/edit.html:23 modals/suppliers/add.html:31 modals/suppliers/edit.html:29 modals/suppliers/view.html:27
+#: pages/monitoring/manage.html:32
+msgid "Address"
+msgstr "Address"
+
+#: modals/hosts/add.html:23 modals/hosts/edit.html:24
+msgid "IP Address or Hostname"
+msgstr "IP Address or Hostname"
+
+#: modals/hosts/assignPeople.html:1
+msgid "Assign People"
+msgstr "Assign People"
+
+#: modals/hosts/delete.html:1
+msgid "Delete Host"
+msgstr "Delete Host"
+
+#: modals/hosts/delete.html:3
+msgid "Are you sure you want to delete this host?"
+msgstr "Are you sure you want to delete this host?"
+
+#: modals/hosts/edit.html:1 modals/models/edit.html:1
+msgid "Edit Model"
+msgstr "Edit Model"
+
+#: modals/hosts/unassignPeople.html:1
+msgid "Unassign User/Admin"
+msgstr "Unassign User/Admin"
+
+#: modals/issues/add.html:1
+msgid "Add Issue"
+msgstr "Add Task"
+
+#: modals/issues/add.html:7 modals/issues/edit.html:7
+msgid "Issue Name"
+msgstr "Task Name"
+
+#: modals/issues/add.html:15 modals/issues/edit.html:15 pages/clients/manage.html:345 pages/inventory/assets/manage.html:262 pages/issues/active.html:41
+#: pages/issues/all.html:41 pages/projects/manage.html:123 pages/projects/manage.html:154 pages/projects/manage.html:185
+msgid "Task"
+msgstr "Task"
+
+#: modals/issues/add.html:16 modals/issues/edit.html:16 pages/clients/manage.html:346 pages/inventory/assets/manage.html:263 pages/issues/active.html:42
+#: pages/issues/all.html:42 pages/projects/manage.html:124 pages/projects/manage.html:155 pages/projects/manage.html:186
+msgid "Maintenance"
+msgstr "Maintenance"
+
+#: modals/issues/add.html:17 modals/issues/edit.html:17 pages/clients/manage.html:347 pages/inventory/assets/manage.html:264 pages/issues/active.html:43
+#: pages/issues/all.html:43 pages/projects/manage.html:125 pages/projects/manage.html:156 pages/projects/manage.html:187
+msgid "Bug"
+msgstr "Bug"
+
+#: modals/issues/add.html:18 modals/issues/edit.html:18 pages/clients/manage.html:348 pages/inventory/assets/manage.html:265 pages/issues/active.html:44
+#: pages/issues/all.html:44 pages/projects/manage.html:126 pages/projects/manage.html:157 pages/projects/manage.html:188
+msgid "Improvement"
+msgstr "Improvement"
+
+#: modals/issues/add.html:19 modals/issues/edit.html:19 pages/clients/manage.html:349 pages/inventory/assets/manage.html:266 pages/issues/active.html:45
+#: pages/issues/all.html:45 pages/projects/manage.html:127 pages/projects/manage.html:158 pages/projects/manage.html:189
+msgid "New Feature"
+msgstr "New Feature"
+
+#: modals/issues/add.html:20 modals/issues/edit.html:20 pages/clients/manage.html:350 pages/inventory/assets/manage.html:267 pages/issues/active.html:46
+#: pages/issues/all.html:46 pages/projects/manage.html:128 pages/projects/manage.html:159 pages/projects/manage.html:190
+msgid "Meeting"
+msgstr "Meeting"
+
+#: modals/issues/add.html:46 modals/issues/edit.html:46 modals/tickets/add.html:46 pages/clients/manage.html:354 pages/clients/manage.html:436
+#: pages/inventory/assets/manage.html:271 pages/inventory/assets/manage.html:353 pages/issues/active.html:50 pages/issues/all.html:50
+#: pages/tickets/active.html:51 pages/tickets/all.html:51 pages/tickets/ar.html:51 pages/tickets/manage.html:364
+msgid "Nobody"
+msgstr "Nobody"
+
+#: modals/issues/add.html:76 modals/issues/edit.html:79
+msgid "Project"
+msgstr "Project"
+
+#: modals/issues/add.html:91 modals/issues/edit.html:93 pages/clients/manage.html:200 pages/clients/manage.html:252 pages/clients/manage.html:330
+#: pages/clients/manage.html:414 pages/inventory/assets.html:28 pages/inventory/assets/create.html:128 pages/inventory/assets/manage.html:45
+#: pages/inventory/assets/manage.html:247 pages/inventory/assets/manage.html:331 pages/inventory/assets/manage.html:529 pages/inventory/licenses.html:27
+#: pages/inventory/licenses/create.html:59 pages/inventory/licenses/manage.html:39 pages/inventory/licenses/manage.html:179 pages/issues/active.html:26
+#: pages/issues/all.html:26 pages/reports/assets.html:25 pages/reports/licenses.html:25 pages/reports/view.html:32 pages/reports/view.html:64
+#: pages/reports/view.html:118 pages/reports/view.html:150 pages/reports/view.html:185 pages/reports/view.html:217 pages/reports/view.html:266
+#: pages/reports/view.html:298 pages/reports/view.html:353 pages/tickets/active.html:29 pages/tickets/all.html:29 pages/tickets/ar.html:29
+#: pages/tickets/manage.html:230 pages/tickets/manage.html:275 pages/reports/licenseexpiry.html:25
+msgid "Status"
+msgstr "Status"
+
+#: modals/issues/add.html:93 modals/issues/edit.html:95 pages/clients/manage.html:376 pages/inventory/assets/manage.html:293 pages/issues/active.html:72
+#: pages/issues/all.html:72 pages/projects/manage.html:114
+msgid "To Do"
+msgstr "To Do"
+
+#: modals/issues/add.html:95 modals/issues/edit.html:97 pages/clients/manage.html:378 pages/inventory/assets/manage.html:295 pages/issues/active.html:74
+#: pages/issues/all.html:74 pages/projects/manage.html:176
+msgid "Done"
+msgstr "Done"
+
+#: modals/issues/add.html:114 modals/issues/edit.html:116 modals/tickets/add.html:108 modals/tickets/edit.html:148
+msgid "Time Spent (minutes)"
+msgstr "Time Spent (minutes)"
+
+#: modals/issues/add.html:123 modals/issues/edit.html:125 modals/projects/add.html:45 modals/projects/edit.html:44 pages/clients/manage.html:292
+#: pages/clients/manage.html:331 pages/inventory/assets/manage.html:248 pages/issues/active.html:27 pages/issues/all.html:27 pages/projects.html:26
+#: pages/projects/manage.html:51
+msgid "Due Date"
+msgstr "Due Date"
+
+#: modals/issues/add.html:133 modals/issues/edit.html:135 modals/projects/add.html:63 modals/projects/edit.html:63 pages/system/logs.html:32
+msgid "Description"
+msgstr "Description"
+
+#: modals/issues/delete.html:1
+msgid "Delete Issue"
+msgstr "Delete Task"
+
+#: modals/issues/delete.html:3
+msgid "Are you sure you want to delete this issue?"
+msgstr "Are you sure you want to delete this task?"
+
+#: modals/issues/edit.html:1
+msgid "Edit Issue"
+msgstr "Edit Task"
+
+#: modals/issues/edit.html:44 modals/tickets/edit.html:45 pages/clients/manage.html:328 pages/clients/manage.html:411
+#: pages/inventory/assets/manage.html:245 pages/inventory/assets/manage.html:328 pages/issues/active.html:24 pages/issues/all.html:24
+#: pages/tickets/active.html:26 pages/tickets/all.html:26 pages/tickets/ar.html:26 pages/tickets/manage.html:363
+msgid "Assigned To"
+msgstr "Assigned To"
+
+#: modals/kb/addArticle.html:1
+msgid "Create New Article"
+msgstr "Create New Article"
+
+#: modals/kb/addArticle.html:14 modals/kb/editArticle.html:15 pages/clients/manage.html:195 pages/clients/manage.html:249 pages/inventory/assets.html:23
+#: pages/inventory/assets/create.html:94 pages/inventory/assets/manage.html:57 pages/inventory/assets/manage.html:194
+#: pages/inventory/assets/manage.html:495 pages/inventory/licenses.html:23 pages/inventory/licenses/create.html:37 pages/inventory/licenses/manage.html:47
+#: pages/inventory/licenses/manage.html:91 pages/inventory/licenses/manage.html:152 pages/reports/assets.html:23 pages/reports/licenses.html:23
+#: pages/reports/view.html:183 pages/reports/view.html:264 pages/reports/view.html:296 pages/reports/view.html:351 pages/reports/licenseexpiry.html:23
+#: pages/inventory/webservices/create.html:27 pages/inventory/webservices/manage.html:39 pages/inventory/webservices/manage.html:128
+msgid "Category"
+msgstr "Category"
+
+#: modals/kb/addArticle.html:16 modals/kb/editArticle.html:17
+msgid "[ROOT]"
+msgstr "[ROOT]"
+
+#: modals/kb/addArticle.html:31 modals/kb/addCategory.html:14 modals/kb/editArticle.html:31 modals/kb/editCategory.html:14
+msgid "ALL CLIENTS"
+msgstr "ALL CLIENTS"
+
+#: modals/kb/addArticle.html:36 modals/kb/addCategory.html:19 modals/kb/editArticle.html:36 modals/kb/editCategory.html:19
+msgid "Leave empty to hide."
+msgstr "Leave empty to hide."
+
+#: modals/kb/addArticle.html:40 modals/kb/editArticle.html:40 modals/notifications/edit.html:17 modals/preplies/add.html:11 modals/preplies/edit.html:11
+#: modals/tickets/add.html:119
+msgid "Message"
+msgstr "Message"
+
+#: modals/kb/addCategory.html:1
+msgid "Create New Category"
+msgstr "Create New Category"
+
+#: modals/kb/deleteArticle.html:1
+msgid "Delete Article"
+msgstr "Delete Article"
+
+#: modals/kb/deleteArticle.html:3
+msgid "Are you sure you want to delete this article?"
+msgstr "Are you sure you want to delete this article?"
+
+#: modals/kb/deleteCategory.html:3
+msgid "Are you sure you want to delete this category? All child articles will also be removed."
+msgstr "Are you sure you want to delete this category? All child articles will also be removed."
+
+#: modals/kb/editArticle.html:1
+msgid "Edit Article"
+msgstr "Edit Article"
+
+#: modals/labels/add.html:1
+msgid "Create New Status Label"
+msgstr "Create New Status Label"
+
+#: modals/labels/delete.html:1
+msgid "Delete Status Label"
+msgstr "Delete Status Label"
+
+#: modals/labels/edit.html:1
+msgid "Edit Status Label"
+msgstr "Edit Status Label"
+
+#: modals/languages/add.html:1
+msgid "Create New Language"
+msgstr "Create New Language"
+
+#: modals/languages/add.html:4 pages/system/settings.html:151
+msgid "Code"
+msgstr "Code"
+
+#: modals/languages/add.html:6
+msgid "2-Letter language code (example: en, fr, it)."
+msgstr "2-Letter language code (example: en, fr, it)."
+
+#: modals/languages/delete.html:1
+msgid "Delete Language"
+msgstr "Delete Language"
+
+#: modals/languages/delete.html:3
+msgid "Are you sure you want to delete this language?"
+msgstr "Are you sure you want to delete this language?"
+
+#: modals/licensecategories/add.html:1
+msgid "Create New License Type"
+msgstr "Create New License Type"
+
+#: modals/licensecategories/delete.html:1
+msgid "Delete License Category"
+msgstr "Delete License Category"
+
+#: modals/licensecategories/delete.html:3
+msgid "Are you sure you want to delete this license category?"
+msgstr "Are you sure you want to delete this license category?"
+
+#: modals/licensecategories/edit.html:1
+msgid "Edit License Category"
+msgstr "Edit License Category"
+
+#: modals/licenses/assignAsset.html:1 pages/inventory/licenses/manage.html:25
+msgid "Assign Asset"
+msgstr "Assign Asset"
+
+#: modals/licenses/delete.html:1
+msgid "Delete License"
+msgstr "Delete License"
+
+#: modals/licenses/delete.html:3
+msgid "Are you sure you want to delete this license?"
+msgstr "Are you sure you want to delete this license?"
+
+#: modals/locations/add.html:1
+msgid "New Location"
+msgstr "New Location"
+
+#: modals/locations/add.html:5 modals/locations/edit.html:4
+msgid "Location Name"
+msgstr "Location Name"
+
+#: modals/locations/delete.html:1
+msgid "Delete Location"
+msgstr "Delete Location"
+
+#: modals/locations/delete.html:3
+msgid "Are you sure you want to delete this Location?"
+msgstr "Are you sure you want to delete this Location?"
+
+#: modals/locations/edit.html:1
+msgid "Edit Location"
+msgstr "Edit Location"
+
+#: modals/manufacturers/add.html:1
+msgid "Create New Manufacturer"
+msgstr "Create New Manufacturer"
+
+#: modals/manufacturers/add.html:4 modals/manufacturers/edit.html:4
+msgid "Manufacturer Name"
+msgstr "Manufacturer Name"
+
+#: modals/manufacturers/delete.html:1
+msgid "Delete Manufacturer"
+msgstr "Delete Manufacturer"
+
+#: modals/manufacturers/edit.html:1
+msgid "Edit Manufacturer"
+msgstr "Edit Manufacturer"
+
+#: modals/models/add.html:1
+msgid "Create New Model"
+msgstr "Create New Model"
+
+#: modals/models/add.html:5 modals/models/edit.html:5 pages/inventory/attributes/models.html:23
+msgid "Model Name"
+msgstr "Model Name"
+
+#: modals/models/delete.html:1
+msgid "Delete Model"
+msgstr "Delete Model"
+
+#: modals/models/delete.html:3
+msgid "Are you sure you want to delete this model?"
+msgstr "Are you sure you want to delete this model?"
+
+#: modals/notifications/edit.html:1
+msgid "Edit Notification Template"
+msgstr "Edit Notification Template"
+
+#: modals/notifications/edit.html:5 modals/tickets/add.html:10 modals/tickets/edit.html:9 pages/clients/manage.html:409
+#: pages/inventory/assets/manage.html:326 pages/reports/view.html:63 pages/reports/view.html:149 pages/system/logs.html:61 pages/tickets/active.html:24
+#: pages/tickets/all.html:24 pages/tickets/ar.html:24 pages/tickets/manage.html:289
+msgid "Subject"
+msgstr "Subject"
+
+#: modals/notifications/edit.html:11 pages/system/settings.html:21
+msgid "SMS"
+msgstr "SMS"
+
+#: modals/notifications/edit.html:21
+msgid "Available Variables"
+msgstr "Available Variables"
+
+#: modals/preplies/add.html:1
+msgid "Create New Predefined Reply"
+msgstr "Create New Predefined Reply"
+
+#: modals/preplies/delete.html:1
+msgid "Delete Predefined Reply"
+msgstr "Delete Predefined Reply"
+
+#: modals/preplies/delete.html:3
+msgid "Are you sure you want to delete this predefined reply?"
+msgstr "Are you sure you want to delete this predefined reply?"
+
+#: modals/preplies/edit.html:1
+msgid "Edit Predefined Reply"
+msgstr "Edit Predefined Reply"
+
+#: modals/preplies/insert.html:1 pages/tickets/manage.html:24
+msgid "Insert Predefined Reply"
+msgstr "Insert Predefined Reply"
+
+#: modals/preplies/insert.html:19
+msgid "Click on any predefined reply to insert it's content."
+msgstr "Click on any predefined reply to insert it's content."
+
+#: modals/preplies/insert.html:19
+msgid "Content will be added at cursor point."
+msgstr "Content will be added at cursor point."
+
+#: modals/projects/add.html:1
+msgid "Add Project"
+msgstr "Add Project"
+
+#: modals/projects/add.html:8 modals/projects/edit.html:7
+msgid "Project Tag"
+msgstr "Project Tag"
+
+#: modals/projects/add.html:14 modals/projects/edit.html:13
+msgid "Project Name"
+msgstr "Project Name"
+
+#: modals/projects/add.html:36 modals/projects/edit.html:35 pages/projects/manage.html:50 pages/reports.html:34 pages/reports.html:73
+msgid "Start Date"
+msgstr "Start Date"
+
+#: pages/reports.html:34 pages/reports.html:73
+msgid "Leave both dates blank for all history, or you must set both dates"
+msgstr "(Leave both dates blank for all history, or you must set both dates)"
+
+#: pages/reports.html:56
+msgid "Tickets & Tasks"
+msgstr "Tickets & Tasks"
+
+#: pages/reports.html:102
+msgid "Assets Summary"
+msgstr "Assets Summary"
+
+#: modals/projects/add.html:55 modals/projects/edit.html:54
+msgid "Calculate progress through tasks"
+msgstr "Calculate progress through tasks"
+
+#: modals/projects/delete.html:1
+msgid "Delete Project"
+msgstr "Delete Project"
+
+#: modals/projects/delete.html:3
+msgid "Are you sure you want to delete this project?"
+msgstr "Are you sure you want to delete this project?"
+
+#: modals/projects/edit.html:1 pages/projects/manage.html:29
+msgid "Edit Project"
+msgstr "Edit Project"
+
+#: modals/roles/delete.html:1
+msgid "Delete Role"
+msgstr "Delete Role"
+
+#: modals/roles/delete.html:3
+msgid "Are you sure you want to delete this role?"
+msgstr "Are you sure you want to delete this role?"
+
+#: modals/staff/add.html:1
+msgid "Add Staff Account"
+msgstr "Add Staff Account"
+
+#: modals/staff/add.html:4 modals/users/add.html:17 pages/people/staff.html:25 pages/people/staff/edit.html:21 pages/people/users.html:25
+#: pages/people/users/edit.html:35
+msgid "Role"
+msgstr "Role"
+
+#: modals/staff/add.html:20 modals/users/add.html:33 pages/people/staff/edit.html:44 pages/people/users/edit.html:57 pages/profile.html:34
+msgid "Mobile Number"
+msgstr "Mobile Number"
+
+#: modals/staff/add.html:24 modals/users/add.html:37 pages/people/staff/edit.html:50 pages/people/users/edit.html:63 pages/profile.html:39
+msgid "Job Title"
+msgstr "Job Title"
+
+#: modals/staff/add.html:31
+msgid "Send new staff account email notification"
+msgstr "Send new staff account email notification"
+
+#: modals/staff/delete.html:1
+msgid "Delete Staff Account"
+msgstr "Delete Staff Account"
+
+#: modals/staff/delete.html:3
+msgid "Are you sure you want to delete this staff account?"
+msgstr "Are you sure you want to delete this staff account?"
+
+#: modals/suppliers/add.html:1
+msgid "Create New Supplier"
+msgstr "Create New Supplier"
+
+#: modals/suppliers/add.html:6 modals/suppliers/edit.html:4
+msgid "Supplier Name"
+msgstr "Supplier Name"
+
+#: modals/suppliers/add.html:11 modals/suppliers/edit.html:9 modals/suppliers/view.html:11
+msgid "Contact Name"
+msgstr "Contact Name"
+
+#: modals/suppliers/add.html:16 modals/suppliers/edit.html:14 modals/suppliers/view.html:15 pages/tickets/manage.html:337
+msgid "Phone"
+msgstr "Phone"
+
+#: modals/suppliers/add.html:26 modals/suppliers/edit.html:24 modals/suppliers/view.html:23
+msgid "Web Address"
+msgstr "Web Address"
+
+#: modals/suppliers/add.html:36 modals/suppliers/edit.html:34 pages/inventory/assets/create.html:178 pages/inventory/assets/manage.html:128
+#: pages/inventory/assets/manage.html:576 pages/inventory/licenses/create.html:74 pages/inventory/licenses/manage.html:67
+#: pages/inventory/licenses/manage.html:196 pages/people/staff/edit.html:125 pages/people/users/edit.html:123 pages/projects/manage.html:24
+#: pages/tickets/manage.html:20
+msgid "Notes"
+msgstr "Notes"
+
+#: modals/suppliers/delete.html:1
+msgid "Delete Supplier"
+msgstr "Delete Supplier"
+
+#: modals/suppliers/edit.html:1
+msgid "Edit Supplier"
+msgstr "Edit Supplier"
+
+#: modals/suppliers/view.html:1
+msgid "View Supplier"
+msgstr "View Supplier"
+
+#: modals/supportdepartments/add.html:1
+msgid "Add Support Department"
+msgstr "Add Support Department"
+
+#: modals/supportdepartments/delete.html:1
+msgid "Delete Support Department"
+msgstr "Delete Support Department"
+
+#: modals/supportdepartments/delete.html:3
+msgid "Are you sure you want to delete this department?"
+msgstr "Are you sure you want to delete this department?"
+
+#: modals/supportdepartments/edit.html:1
+msgid "Edit Support Department"
+msgstr "Edit Support Department"
+
+#: modals/tickets/add.html:1
+msgid "Add Ticket"
+msgstr "Add Ticket"
+
+#: modals/tickets/add.html:17 modals/tickets/edit.html:16 pages/clients/manage.html:413 pages/inventory/assets/manage.html:330
+#: pages/system/settings.html:344 pages/tickets/active.html:28 pages/tickets/all.html:28 pages/tickets/ar.html:28 pages/tickets/manage.html:293
+msgid "Department"
+msgstr "Department"
+
+#: modals/tickets/add.html:30
+msgid "User or Email Address"
+msgstr "User or Email Address"
+
+#: modals/tickets/add.html:98 modals/tickets/edit.html:137 pages/tickets/manage.html:367
+msgid "CC Recipients"
+msgstr "CC Recipients"
+
+#: modals/tickets/add.html:127
+msgid "Send New Ticket Notification"
+msgstr "Send New Ticket Notification"
+
+#: modals/tickets/delete.html:1 pages/tickets/manage.html:40
+msgid "Delete Ticket"
+msgstr "Delete Ticket"
+
+#: modals/tickets/delete.html:3
+msgid "Are you sure you want to delete this ticket?"
+msgstr "Are you sure you want to delete this ticket?"
+
+#: modals/tickets/edit.html:1 pages/tickets/manage.html:25
+msgid "Edit Ticket"
+msgstr "Edit Ticket"
+
+#: modals/tickets/edit.html:62 pages/people/roles/add.html:35 pages/people/roles/edit.html:35 pages/reports/assets.html:33 pages/reports/view.html:348
+#: pages/tickets/manage.html:323
+msgid "User"
+msgstr "User"
+
+#: modals/users/add.html:1
+msgid "Add User Account"
+msgstr "Add User Account"
+
+#: modals/users/add.html:44
+msgid "Send New User Email"
+msgstr "Send New User Email"
+
+#: modals/users/delete.html:1
+msgid "Delete User Account"
+msgstr "Delete User Account"
+
+#: modals/users/delete.html:3
+msgid "Are you sure you want to delete this user account?"
+msgstr "Are you sure you want to delete this user account?"
+
+#: pages/clients.html:5
+msgid "Manage clients"
+msgstr "Manage clients"
+
+#: pages/clients.html:6
+msgid "NEW CLIENT"
+msgstr "NEW CLIENT"
+
+#: pages/clients.html:23 pages/clients/manage.html:326 pages/clients/manage.html:526 pages/inventory/assets/manage.html:243
+#: pages/inventory/attributes/assetcategories.html:22 pages/inventory/attributes/labels.html:22 pages/inventory/attributes/licensecategories.html:22
+#: pages/inventory/attributes/locations.html:22 pages/inventory/attributes/manufacturers.html:22 pages/inventory/attributes/models.html:21
+#: pages/inventory/attributes/suppliers.html:22 pages/issues/active.html:22 pages/issues/all.html:22 pages/kb.html:88 pages/people/contacts.html:21
+#: pages/people/roles.html:21 pages/people/staff.html:21 pages/people/users.html:21 pages/system/logs.html:29 pages/system/logs.html:57
+#: pages/system/logs.html:87 pages/system/preplies.html:23 pages/system/settings.html:391 pages/system/settings.html:433 pages/tickets/manage.html:228
+#: pages/inventory/attributes/webservicecategories.html:23 pages/dashboard.html:420 pages/inventory/attributes/accountnumbers.html:23
+msgid "ID"
+msgstr "ID"
+
+#: pages/clients/manage.html:6 pages/dashboard.html:6 pages/inventory/assets/create.html:6 pages/inventory/assets/manage.html:6
+#: pages/inventory/licenses/create.html:6 pages/inventory/licenses/manage.html:6 pages/monitoring.html:6 pages/monitoring/manage.html:6
+#: pages/people/roles/add.html:6 pages/people/roles/edit.html:6 pages/people/staff/edit.html:5 pages/people/users/edit.html:5 pages/profile.html:5
+#: pages/projects/manage.html:6 pages/reports.html:6 pages/reports/assets.html:6 pages/reports/licenses.html:6 pages/search.html:6 pages/system/logs.html:5
+#: pages/system/settings.html:5 pages/tickets/manage.html:6 pages/reports/licenseexpiry.html:6 pages/inventory/webservices/manage.html:6
+#: pages/inventory/webservices/create.html:6
+msgid "Home"
+msgstr "Home"
+
+#: pages/clients/manage.html:20 pages/inventory/assets/manage.html:21 pages/inventory/licenses/manage.html:21
+#: pages/inventory/webservices/manage.html:21
+msgid "Summary"
+msgstr "Summary"
+
+#: pages/clients/manage.html:26 pages/inventory/assets/manage.html:140
+msgid "Credentials"
+msgstr "Credentials"
+
+#: pages/clients/manage.html:28 pages/inventory/assets/manage.html:24 pages/projects/manage.html:23
+msgid "Files"
+msgstr "Files"
+
+#: pages/clients/manage.html:34
+msgid "New Project"
+msgstr "New Project"
+
+#: pages/clients/manage.html:36 pages/inventory/assets/manage.html:30
+msgid "New Credential"
+msgstr "New Credential"
+
+#: pages/clients/manage.html:37
+msgid "New User"
+msgstr "New User"
+
+#: pages/clients/manage.html:106
+msgid "Total Worked Hours"
+msgstr "Total Worked Hours"
+
+#: pages/clients/manage.html:125 pages/projects/manage.html:66
+msgid "Assigned Staff"
+msgstr "Assigned Staff"
+
+#: pages/clients/manage.html:139 pages/projects/manage.html:77
+msgid "Unassign"
+msgstr "Unassign"
+
+#: pages/clients/manage.html:145 pages/projects/manage.html:81
+msgid "There are no assigned admins to display."
+msgstr "There are no assigned admins to display."
+
+#: pages/clients/manage.html:154 pages/dashboard.html:252
+msgid "Assets by Category"
+msgstr "Assets by Category"
+
+#: pages/clients/manage.html:194 pages/clients/manage.html:248 pages/clients/manage.html:290 pages/inventory/assets.html:22
+#: pages/inventory/assets/manage.html:49 pages/inventory/assets/manage.html:193 pages/inventory/licenses.html:22 pages/inventory/licenses/manage.html:90
+#: pages/projects.html:23 pages/projects/manage.html:47 pages/reports/assets.html:22 pages/reports/licenses.html:22 pages/reports/view.html:181
+#: pages/reports/view.html:214 pages/reports/view.html:262 pages/reports/view.html:295 pages/reports/view.html:349 pages/reports/licenseexpiry.html:22
+msgid "Tag"
+msgstr "Tag"
+
+#: pages/clients/manage.html:196 pages/inventory/assets.html:24 pages/inventory/assets/create.html:41 pages/inventory/assets/manage.html:456
+msgid "Asset Name"
+msgstr "Asset Name"
+
+#: pages/clients/manage.html:197 pages/inventory/assets.html:25 pages/inventory/assets/create.html:112 pages/inventory/assets/manage.html:74
+#: pages/inventory/assets/manage.html:513 pages/inventory/licenses/manage.html:92 pages/reports/assets.html:30 pages/reports/view.html:184
+#: pages/reports/view.html:265 pages/reports/view.html:352
+msgid "Model"
+msgstr "Model"
+
+#: pages/clients/manage.html:198 pages/inventory/assets.html:26 pages/inventory/assets/create.html:68 pages/inventory/assets/manage.html:82
+#: pages/inventory/assets/manage.html:469
+msgid "Serial Number"
+msgstr "Serial Number"
+
+#: pages/clients/manage.html:199 pages/clients/manage.html:329 pages/clients/manage.html:412 pages/inventory/assets.html:27
+#: pages/inventory/assets/manage.html:246 pages/inventory/assets/manage.html:329 pages/issues/active.html:25 pages/issues/all.html:25
+#: pages/tickets/active.html:27 pages/tickets/all.html:27 pages/tickets/ar.html:27
+msgid "Related Entities"
+msgstr "Related Entities"
+
+#: pages/clients/manage.html:341 pages/clients/manage.html:423 pages/inventory/assets/manage.html:258 pages/inventory/assets/manage.html:340
+#: pages/issues/active.html:37 pages/issues/all.html:37 pages/tickets/active.html:38 pages/tickets/all.html:38 pages/tickets/ar.html:38
+msgid "High priority"
+msgstr "High priority"
+
+#: pages/clients/manage.html:342 pages/clients/manage.html:424 pages/inventory/assets/manage.html:259 pages/inventory/assets/manage.html:341
+#: pages/issues/active.html:38 pages/issues/all.html:38 pages/tickets/active.html:39 pages/tickets/all.html:39 pages/tickets/ar.html:39
+msgid "Normal priority"
+msgstr "Normal priority"
+
+#: pages/clients/manage.html:343 pages/clients/manage.html:425 pages/inventory/assets/manage.html:260 pages/inventory/assets/manage.html:342
+#: pages/issues/active.html:39 pages/issues/all.html:39 pages/tickets/active.html:40 pages/tickets/all.html:40 pages/tickets/ar.html:40
+msgid "Low priority"
+msgstr "Low priority"
+
+#: pages/clients/manage.html:379 pages/inventory/assets/manage.html:296 pages/issues/active.html:75 pages/issues/all.html:75
+msgid "Overdue"
+msgstr "Overdue"
+
+#: pages/clients/manage.html:408 pages/inventory/assets/manage.html:325 pages/tickets/active.html:23 pages/tickets/all.html:23 pages/tickets/ar.html:23
+msgid "Ticket #"
+msgstr "Ticket #"
+
+#: pages/clients/manage.html:410 pages/inventory/assets/manage.html:327 pages/tickets/active.html:25 pages/tickets/all.html:25 pages/tickets/ar.html:25
+msgid "Submitter"
+msgstr "Submitter"
+
+#: pages/clients/manage.html:415 pages/inventory/assets/manage.html:332 pages/tickets/active.html:30 pages/tickets/all.html:30 pages/tickets/ar.html:30
+msgid "Last Reply"
+msgstr "Last Reply"
+
+#: pages/clients/manage.html:505 pages/inventory/assets/manage.html:163
+msgid "Click to view"
+msgstr "Click to view"
+
+#: pages/clients/manage.html:555 pages/inventory/assets/manage.html:406 pages/projects/manage.html:244
+msgid "No files have been uploaded yet!"
+msgstr "No files have been uploaded yet!"
+
+#: pages/dashboard.html:15
+msgid "Plese delete the \"install\" directory!"
+msgstr "Plese delete the installation files!"
+
+#: pages/dashboard.html:29 pages/dashboard.html:43 pages/dashboard.html:57 pages/dashboard.html:72 pages/dashboard.html:84
+msgid "View all"
+msgstr "View all"
+
+#: pages/dashboard.html:102
+msgid "Assigned Issues"
+msgstr "Assigned Tasks"
+
+#: pages/dashboard.html:109
+msgid "There are no issues assigned to you."
+msgstr "There are no tasks assigned to you."
+
+#: pages/dashboard.html:133 pages/dashboard.html:177 pages/issues/active.html:6 pages/issues/all.html:6
+msgid "NEW ISSUE"
+msgstr "NEW TASK"
+
+#: pages/dashboard.html:153
+msgid "There are no issues to display."
+msgstr "There are no tasks to display."
+
+#: pages/dashboard.html:199
+msgid "There are no opened tickets."
+msgstr "There are no opened tickets."
+
+#: pages/dashboard.html:221 pages/tickets/active.html:6 pages/tickets/all.html:6 pages/tickets/ar.html:6
+msgid "NEW TICKET"
+msgstr "NEW TICKET"
+
+#: pages/dashboard.html:250
+msgid "Worked Hours"
+msgstr "Worked Hours on Tickets/Tasks"
+
+#: pages/dashboard.html:284
+msgid "Recently Added Assets"
+msgstr "Recently Added Assets"
+
+#: pages/dashboard.html:293
+msgid "There are no assets to display."
+msgstr "There are no assets to display."
+
+#: pages/dashboard.html:314
+msgid "View All Assets"
+msgstr "View All Assets"
+
+#: pages/dashboard.html:325
+msgid "Recently Added Licenses"
+msgstr "Recently Added Licenses"
+
+#: pages/dashboard.html:334
+msgid "There are no licenses to display."
+msgstr "There are no licenses to display."
+
+#: pages/dashboard.html:355
+msgid "View All Licenses"
+msgstr "View All Licenses"
+
+#: pages/inventory/assets.html:5 pages/inventory/assets/create.html:5
+msgid "Manage assets"
+msgstr "Manage assets"
+
+#: pages/inventory/assets.html:6
+msgid "NEW ASSET"
+msgstr "NEW ASSET"
+
+#: pages/inventory/assets/create.html:17
+msgid "Create New Asset"
+msgstr "Create New Asset"
+
+#: pages/inventory/assets/create.html:36 pages/inventory/assets/manage.html:451
+msgid "Asset Tag"
+msgstr "Asset Tag"
+
+#: pages/inventory/assets/create.html:47 pages/inventory/assets/create.html:60 pages/inventory/assets/manage.html:61 pages/inventory/assets/manage.html:461
+#: pages/reports/assets.html:28
+msgid "Location"
+msgstr "Location"
+
+#: pages/inventory/assets/create.html:73 pages/inventory/assets/manage.html:98 pages/inventory/assets/manage.html:474 pages/reports/assets.html:34
+msgid "Purchase Date"
+msgstr "Purchase Date"
+
+#: pages/inventory/assets/create.html:81 pages/inventory/assets/manage.html:103 pages/inventory/assets/manage.html:482
+msgid "Purchase Order Number"
+msgstr "Purchase Order Number"
+
+#: pages/inventory/assets/create.html:86 pages/inventory/assets/manage.html:108 pages/inventory/assets/manage.html:487 pages/reports/assets.html:36
+msgid "Value"
+msgstr "Value"
+
+#: pages/inventory/assets/create.html:103 pages/inventory/assets/manage.html:70 pages/inventory/assets/manage.html:504 pages/reports/assets.html:29
+msgid "Manufacturer"
+msgstr "Manufacturer"
+
+#: pages/inventory/assets/create.html:121 pages/inventory/assets/manage.html:78 pages/inventory/assets/manage.html:522
+#: pages/inventory/licenses/create.html:66 pages/inventory/licenses/manage.html:63 pages/inventory/licenses/manage.html:187 pages/reports/assets.html:31
+#: pages/reports/licenses.html:27 pages/reports/licenseexpiry.html:27 pages/inventory/webservices/manage.html:55
+#: pages/inventory/webservices/manage.html:181 pages/inventory/webservices/create.html:56 modals/accountnumbers/add.html:13
+#: modals/accountnumbers/edit.html:13
+msgid "Supplier"
+msgstr "Supplier"
+
+#: pages/inventory/assets/create.html:136 pages/inventory/assets/manage.html:86 pages/inventory/assets/manage.html:536
+msgid "Asset Admin"
+msgstr "Asset Admin"
+
+#: pages/inventory/assets/create.html:146 pages/inventory/assets/manage.html:90 pages/inventory/assets/manage.html:544
+msgid "Asset User"
+msgstr "Asset User"
+
+#: pages/inventory/assets/create.html:154 pages/inventory/assets/manage.html:123 pages/inventory/assets/manage.html:552 pages/reports/assets.html:39
+msgid "Removal Date"
+msgstr "Return Date"
+
+#: pages/inventory/assets/create.html:162 pages/inventory/assets/manage.html:113 pages/inventory/assets/manage.html:560 pages/reports/assets.html:37
+msgid "Condition"
+msgstr "Condition"
+
+#: pages/inventory/assets/create.html:167 pages/inventory/assets/manage.html:565 pages/reports/assets.html:38
+msgid "Warranty"
+msgstr "Warranty"
+
+#: pages/inventory/assets/create.html:170 pages/inventory/assets/manage.html:568
+msgid "months"
+msgstr "months"
+
+#: pages/inventory/assets/manage.html:25
+msgid "Edit Asset"
+msgstr "Edit Asset"
+
+#: pages/inventory/assets/manage.html:118
+msgid "Warranty (months)"
+msgstr "Warranty (months)"
+
+#: pages/inventory/assets/manage.html:178
+msgid "There are no credentials to display."
+msgstr "There are no credentials to display."
+
+#: pages/inventory/assets/manage.html:183
+msgid "Assigned Licenses"
+msgstr "Assigned Licenses"
+
+#: pages/inventory/assets/manage.html:230
+msgid "There are no assigned licenses to display."
+msgstr "There are no assigned licenses to display."
+
+#: pages/inventory/attributes/assetcategories.html:5
+msgid "Manage asset categories"
+msgstr "Manage asset categories"
+
+#: pages/inventory/attributes/assetcategories.html:6
+msgid "NEW ASSET CATEGORY"
+msgstr "NEW ASSET CATEGORY"
+
+#: pages/inventory/attributes/labels.html:5
+msgid "Manage status labels"
+msgstr "Manage status labels"
+
+#: pages/inventory/attributes/labels.html:6
+msgid "NEW STATUS LABEL"
+msgstr "NEW STATUS LABEL"
+
+#: pages/inventory/attributes/licensecategories.html:5
+msgid "License Catgories"
+msgstr "License Catgories"
+
+#: pages/inventory/attributes/licensecategories.html:5
+msgid "Manage license categories"
+msgstr "Manage license categories"
+
+#: pages/inventory/attributes/licensecategories.html:6
+msgid "NEW LICENSE CATEGORY"
+msgstr "NEW LICENSE CATEGORY"
+
+#: pages/inventory/attributes/locations.html:5
+msgid "Manage locations"
+msgstr "Manage locations"
+
+#: pages/inventory/attributes/locations.html:6
+msgid "NEW LOCATION"
+msgstr "NEW LOCATION"
+
+#: pages/inventory/attributes/manufacturers.html:5
+msgid "Manage manufacturers"
+msgstr "Manage manufacturers"
+
+#: pages/inventory/attributes/manufacturers.html:6
+msgid "NEW MANUFACTURER"
+msgstr "NEW MANUFACTURER"
+
+#: pages/inventory/attributes/models.html:4
+msgid "Models"
+msgstr "Models"
+
+#: pages/inventory/attributes/models.html:4
+msgid "Manage asset models"
+msgstr "Manage asset models"
+
+#: pages/inventory/attributes/models.html:5
+msgid "NEW MODEL"
+msgstr "NEW MODEL"
+
+#: pages/inventory/attributes/suppliers.html:5
+msgid "Manage suppliers"
+msgstr "Manage suppliers"
+
+#: pages/inventory/attributes/suppliers.html:6
+msgid "NEW SUPPLIER"
+msgstr "NEW SUPPLIER"
+
+#: pages/inventory/licenses.html:5 pages/inventory/licenses/create.html:5
+msgid "Manage licenses"
+msgstr "Manage licenses"
+
+#: pages/inventory/licenses.html:6
+msgid "NEW LICENSE"
+msgstr "NEW LICENSE"
+
+#: pages/inventory/licenses/create.html:18
+msgid "Create New License"
+msgstr "Create New License"
+
+#: pages/inventory/licenses/create.html:44 pages/inventory/licenses/manage.html:55 pages/inventory/licenses/manage.html:161
+msgid "License Tag"
+msgstr "License Tag"
+
+#: pages/inventory/licenses/create.html:49 pages/inventory/licenses/manage.html:51 pages/inventory/licenses/manage.html:167
+msgid "License Name"
+msgstr "License Name"
+
+#: pages/inventory/licenses/create.html:54 pages/inventory/licenses/manage.html:59 pages/inventory/licenses/manage.html:173 pages/reports/assets.html:26
+#: pages/reports/view.html:186 pages/reports/view.html:267 pages/reports/view.html:354
+msgid "Serial"
+msgstr "Serial"
+
+#: pages/inventory/licenses/manage.html:22
+msgid "Edit License"
+msgstr "Edit License"
+
+#: pages/inventory/licenses/manage.html:80
+msgid "Assigned Assets"
+msgstr "Assigned Assets"
+
+#: pages/inventory/licenses/manage.html:127
+msgid "There are no assigned assets to display."
+msgstr "There are no assigned assets to display."
+
+#: pages/issues/active.html:5
+msgid "Active issues"
+msgstr "Active tasks"
+
+#: pages/issues/all.html:5
+msgid "All issues"
+msgstr "All tasks"
+
+#: pages/kb.html:9
+msgid "NEW CATEGORY"
+msgstr "NEW CATEGORY"
+
+#: pages/kb.html:13
+msgid "NEW ARTICLE"
+msgstr "NEW ARTICLE"
+
+#: pages/kb.html:31
+msgid "Categories"
+msgstr "Categories"
+
+#: pages/kb.html:35
+msgid "There are no categories defined."
+msgstr "There are no categories defined."
+
+#: pages/kb.html:76
+msgid "Articles"
+msgstr "Articles"
+
+#: pages/kb.html:80
+msgid "There are no articles in this category. Please select a different category."
+msgstr "There are no articles in this category. Please select a different category."
+
+#: pages/monitoring.html:19 pages/monitoring.html:26
+msgid "UP"
+msgstr "UP"
+
+#: pages/monitoring.html:39 pages/monitoring.html:46
+msgid "WARNING"
+msgstr "WARNING"
+
+#: pages/monitoring.html:59 pages/monitoring.html:66
+msgid "DOWN"
+msgstr "DOWN"
+
+#: pages/monitoring.html:82
+msgid "All Hosts"
+msgstr "All Hosts"
+
+#: pages/monitoring.html:84
+msgid "NEW HOST"
+msgstr "NEW HOST"
+
+#: pages/monitoring.html:91
+msgid "Host"
+msgstr "Host"
+
+#: pages/monitoring.html:145
+msgid "There are no hosts to display."
+msgstr "There are no hosts to display."
+
+#: pages/monitoring/manage.html:18
+msgid "Host Details"
+msgstr "Host Details"
+
+#: pages/monitoring/manage.html:24
+msgid "Current Status"
+msgstr "Current Status"
+
+#: pages/monitoring/manage.html:47
+msgid "Assigned People"
+msgstr "Assigned People"
+
+#: pages/monitoring/manage.html:67
+msgid "There are no assigned people to display."
+msgstr "There are no assigned people to display."
+
+#: pages/monitoring/manage.html:70
+msgid "People listed here will receive notifications for this host."
+msgstr "People listed here will receive notifications for this host."
+
+#: pages/monitoring/manage.html:81
+msgid "Checks"
+msgstr "Checks"
+
+#: pages/monitoring/manage.html:83
+msgid "NEW CHECK"
+msgstr "NEW CHECK"
+
+#: pages/monitoring/manage.html:142
+msgid "There are no checks to display."
+msgstr "There are no checks to display."
+
+#: pages/people/contacts.html:4
+msgid "Manage contacts"
+msgstr "Manage contacts"
+
+#: pages/people/contacts.html:5
+msgid "NEW CONTACT"
+msgstr "NEW CONTACT"
+
+#: pages/people/roles.html:4
+msgid "Manage user roles"
+msgstr "Manage user roles"
+
+#: pages/people/roles.html:5
+msgid "NEW ROLE"
+msgstr "NEW ROLE"
+
+#: pages/people/roles.html:22 pages/people/roles/add.html:32 pages/people/roles/edit.html:32
+msgid "Role Type"
+msgstr "Role Type"
+
+#: pages/people/roles.html:23
+msgid "Role Name"
+msgstr "Role Name"
+
+#: pages/people/roles/add.html:5 pages/people/roles/edit.html:5
+msgid "Manage roles"
+msgstr "Manage roles"
+
+#: pages/people/roles/add.html:17
+msgid "Create New Role"
+msgstr "Create New Role"
+
+#: pages/people/roles/add.html:42 pages/people/roles/add.html:52 pages/people/roles/add.html:62 pages/people/roles/add.html:72
+#: pages/people/roles/add.html:83 pages/people/roles/add.html:94 pages/people/roles/add.html:103 pages/people/roles/add.html:112
+#: pages/people/roles/add.html:122 pages/people/roles/add.html:130 pages/people/roles/add.html:146 pages/people/roles/add.html:155
+#: pages/people/roles/add.html:163 pages/people/roles/add.html:171 pages/people/roles/add.html:178 pages/people/roles/edit.html:41
+#: pages/people/roles/edit.html:51 pages/people/roles/edit.html:61 pages/people/roles/edit.html:71 pages/people/roles/edit.html:81
+#: pages/people/roles/edit.html:92 pages/people/roles/edit.html:101 pages/people/roles/edit.html:110 pages/people/roles/edit.html:121
+#: pages/people/roles/edit.html:129 pages/people/roles/edit.html:145 pages/people/roles/edit.html:154 pages/people/roles/edit.html:161
+#: pages/people/roles/edit.html:168 pages/people/roles/edit.html:175
+msgid "Add"
+msgstr "Add"
+
+#: pages/people/roles/add.html:43 pages/people/roles/add.html:53 pages/people/roles/add.html:63 pages/people/roles/add.html:73
+#: pages/people/roles/add.html:84 pages/people/roles/add.html:95 pages/people/roles/add.html:104 pages/people/roles/add.html:113
+#: pages/people/roles/add.html:123 pages/people/roles/add.html:131 pages/people/roles/add.html:147 pages/people/roles/add.html:156
+#: pages/people/roles/add.html:164 pages/people/roles/add.html:172 pages/people/roles/add.html:179 pages/people/roles/edit.html:6
+#: pages/people/roles/edit.html:42 pages/people/roles/edit.html:52 pages/people/roles/edit.html:62 pages/people/roles/edit.html:72
+#: pages/people/roles/edit.html:82 pages/people/roles/edit.html:93 pages/people/roles/edit.html:102 pages/people/roles/edit.html:111
+#: pages/people/roles/edit.html:122 pages/people/roles/edit.html:130 pages/people/roles/edit.html:146 pages/people/roles/edit.html:155
+#: pages/people/roles/edit.html:162 pages/people/roles/edit.html:169 pages/people/roles/edit.html:176 pages/projects/manage.html:225
+#: pages/tickets/manage.html:188
+msgid "Edit"
+msgstr "Edit"
+
+#: pages/people/roles/add.html:44 pages/people/roles/add.html:54 pages/people/roles/add.html:64 pages/people/roles/add.html:74
+#: pages/people/roles/add.html:85 pages/people/roles/add.html:96 pages/people/roles/add.html:105 pages/people/roles/add.html:114
+#: pages/people/roles/add.html:124 pages/people/roles/add.html:132 pages/people/roles/add.html:140 pages/people/roles/add.html:148
+#: pages/people/roles/add.html:157 pages/people/roles/add.html:165 pages/people/roles/add.html:173 pages/people/roles/add.html:180
+#: pages/people/roles/edit.html:43 pages/people/roles/edit.html:53 pages/people/roles/edit.html:63 pages/people/roles/edit.html:73
+#: pages/people/roles/edit.html:83 pages/people/roles/edit.html:94 pages/people/roles/edit.html:103 pages/people/roles/edit.html:112
+#: pages/people/roles/edit.html:123 pages/people/roles/edit.html:131 pages/people/roles/edit.html:139 pages/people/roles/edit.html:147
+#: pages/people/roles/edit.html:156 pages/people/roles/edit.html:163 pages/people/roles/edit.html:170 pages/people/roles/edit.html:177
+#: pages/projects/manage.html:226 pages/tickets/manage.html:189
+msgid "Delete"
+msgstr "Delete"
+
+#: pages/people/roles/add.html:45 pages/people/roles/add.html:55 pages/people/roles/add.html:65 pages/people/roles/add.html:97
+#: pages/people/roles/add.html:149 pages/people/roles/edit.html:44 pages/people/roles/edit.html:54 pages/people/roles/edit.html:64
+#: pages/people/roles/edit.html:95 pages/people/roles/edit.html:148
+msgid "Manage"
+msgstr "Manage"
+
+#: pages/people/roles/add.html:46 pages/people/roles/add.html:77 pages/people/roles/edit.html:45 pages/people/roles/edit.html:76
+msgid "Assign/Unassign Staff"
+msgstr "Assign/Unassign Staff"
+
+#: pages/people/roles/add.html:47 pages/people/roles/edit.html:46
+msgid "View Clients"
+msgstr "View Clients"
+
+#: pages/people/roles/add.html:56 pages/people/roles/edit.html:55
+msgid "Assign/Unassign License"
+msgstr "Assign/Unassign License"
+
+#: pages/people/roles/add.html:57 pages/people/roles/edit.html:56
+msgid "View Assets"
+msgstr "View Assets"
+
+#: pages/people/roles/add.html:66 pages/people/roles/edit.html:65
+msgid "Assign/Unassign Asset"
+msgstr "Assign/Unassign Asset"
+
+#: pages/people/roles/add.html:67 pages/people/roles/edit.html:66
+msgid "View Licenses/Services"
+msgstr "View Licenses/Services"
+
+#: pages/people/roles/add.html:75 pages/people/roles/edit.html:74
+msgid "Manage Project"
+msgstr "Manage Project"
+
+#: pages/people/roles/add.html:76 pages/people/roles/edit.html:75
+msgid "Manage Project Notes"
+msgstr "Manage Project Notes"
+
+#: pages/people/roles/add.html:78 pages/people/roles/edit.html:77
+msgid "View Projects"
+msgstr "View Projects"
+
+#: pages/people/roles/add.html:86 pages/people/roles/edit.html:84
+msgid "Manage Ticket"
+msgstr "Manage Ticket"
+
+#: pages/people/roles/add.html:87 pages/people/roles/edit.html:85
+msgid "Manage Ticket Rules"
+msgstr "Manage Ticket Rules"
+
+#: pages/people/roles/add.html:88 pages/people/roles/edit.html:86
+msgid "Manage Ticket Notes"
+msgstr "Manage Ticket Notes"
+
+#: pages/people/roles/add.html:89 pages/people/roles/edit.html:87
+msgid "Manage Ticket Assignment"
+msgstr "Manage Ticket Assignment"
+
+#: pages/people/roles/add.html:90 pages/people/roles/edit.html:88
+msgid "View Tickets"
+msgstr "View Tickets"
+
+#: pages/people/roles/add.html:98 pages/people/roles/edit.html:96
+msgid "View Issues"
+msgstr "View Tasks"
+
+#: pages/people/roles/add.html:106 pages/people/roles/edit.html:104
+msgid "Allow Account Selection"
+msgstr "Allow Account Selection"
+
+#: pages/people/roles/add.html:107 pages/people/roles/edit.html:105
+msgid "View Comments"
+msgstr "View Comments"
+
+#: pages/people/roles/add.html:116 pages/people/roles/edit.html:114
+msgid "View Credentials"
+msgstr "View Credentials"
+
+#: pages/people/roles/add.html:125 pages/people/roles/edit.html:124
+msgid "View Knowledge Base"
+msgstr "View Knowledge Base"
+
+#: pages/people/roles/add.html:133 pages/people/roles/edit.html:132
+msgid "View Predefined Replies"
+msgstr "View Predefined Replies"
+
+#: pages/people/roles/add.html:139 pages/people/roles/edit.html:138
+msgid "Download"
+msgstr "Download"
+
+#: pages/people/roles/add.html:141 pages/people/roles/edit.html:140
+msgid "View Files"
+msgstr "View Files"
+
+#: pages/people/roles/add.html:150 pages/people/roles/edit.html:149
+msgid "View Monitoring"
+msgstr "View Monitoring"
+
+#: pages/people/roles/add.html:158 pages/people/roles/edit.html:157
+msgid "View Users"
+msgstr "View Users"
+
+#: pages/people/roles/add.html:166 pages/people/roles/edit.html:164
+msgid "View Staff"
+msgstr "View Staff"
+
+#: pages/people/roles/add.html:174 pages/people/roles/edit.html:171
+msgid "View Roles"
+msgstr "View Roles"
+
+#: pages/people/roles/add.html:181 pages/people/roles/edit.html:178
+msgid "View Contacts"
+msgstr "View Contacts"
+
+#: pages/people/roles/add.html:186 pages/people/roles/edit.html:183
+msgid "Manage Predefined Data"
+msgstr "Manage Predefined Data"
+
+#: pages/people/roles/add.html:187 pages/people/roles/edit.html:184
+msgid "Manage Settings"
+msgstr "Manage Settings"
+
+#: pages/people/roles/add.html:188 pages/people/roles/edit.html:185
+msgid "View Logs"
+msgstr "View Logs"
+
+#: pages/people/roles/add.html:189 pages/people/roles/edit.html:186
+msgid "View System"
+msgstr "View System"
+
+#: pages/people/roles/add.html:193 pages/people/roles/edit.html:190
+msgid "View People"
+msgstr "View People"
+
+#: pages/people/roles/add.html:195 pages/people/roles/edit.html:192
+msgid "View Reports"
+msgstr "View Reports"
+
+#: pages/people/roles/add.html:201 pages/people/roles/edit.html:199
+msgid "Autorefresh"
+msgstr "Auto-refresh"
+
+#: pages/people/roles/add.html:202 pages/people/roles/edit.html:200 pages/search.html:5 pages/search.html:6 pages/search.html:25
+msgid "Search"
+msgstr "Search"
+
+#: pages/people/roles/edit.html:17
+msgid "Edit Role"
+msgstr "Edit Role"
+
+#: pages/people/staff.html:4
+msgid "Manage staff accounts"
+msgstr "Manage staff accounts"
+
+#: pages/people/staff.html:5
+msgid "ADD STAFF ACCOUNT"
+msgstr "ADD STAFF ACCOUNT"
+
+#: pages/people/staff.html:24
+msgid "Title"
+msgstr "Title"
+
+#: pages/people/staff/edit.html:4
+msgid "Edit staff account"
+msgstr "Edit staff account"
+
+#: pages/people/staff/edit.html:5
+msgid "Admins"
+msgstr "Admins"
+
+#: pages/people/staff/edit.html:58
+msgid "Enter to change"
+msgstr "Enter to change"
+
+#: pages/people/staff/edit.html:62 pages/people/users/edit.html:75 pages/profile.html:64
+msgid "Language"
+msgstr "Language"
+
+#: pages/people/staff/edit.html:72 pages/profile.html:74
+msgid "Receive Tickets Notifications"
+msgstr "Receive Tickets Notifications"
+
+#: pages/people/staff/edit.html:81 pages/people/users/edit.html:85 pages/profile.html:84
+msgid "Theme"
+msgstr "Theme"
+
+#: pages/people/staff/edit.html:84 pages/people/users/edit.html:88 pages/profile.html:86
+msgid "Blue"
+msgstr "Blue"
+
+#: pages/people/staff/edit.html:85 pages/people/users/edit.html:89 pages/profile.html:87
+msgid "Black"
+msgstr "Black"
+
+#: pages/people/staff/edit.html:86 pages/people/users/edit.html:90 pages/profile.html:88
+msgid "Purple"
+msgstr "Purple"
+
+#: pages/people/staff/edit.html:87 pages/people/users/edit.html:91 pages/profile.html:89
+msgid "Green"
+msgstr "Green"
+
+#: pages/people/staff/edit.html:88 pages/people/users/edit.html:92 pages/profile.html:90
+msgid "Red"
+msgstr "Red"
+
+#: pages/people/staff/edit.html:89 pages/people/users/edit.html:93 pages/profile.html:91
+msgid "Yellow"
+msgstr "Yellow"
+
+#: pages/people/staff/edit.html:90 pages/people/users/edit.html:94 pages/profile.html:92
+msgid "Blue Light"
+msgstr "Blue + Light Theme"
+
+#: pages/people/staff/edit.html:91 pages/people/users/edit.html:95 pages/profile.html:93
+msgid "Black Light"
+msgstr "Black + Light Theme"
+
+#: pages/people/staff/edit.html:92 pages/people/users/edit.html:96 pages/profile.html:94
+msgid "Purple Light"
+msgstr "Purple + Light Theme"
+
+#: pages/people/staff/edit.html:93 pages/people/users/edit.html:97 pages/profile.html:95
+msgid "Green Light"
+msgstr "Green + Light Theme"
+
+#: pages/people/staff/edit.html:94 pages/people/users/edit.html:98 pages/profile.html:96
+msgid "Red Light"
+msgstr "Red + Light Theme"
+
+#: pages/people/staff/edit.html:95 pages/people/users/edit.html:99 pages/profile.html:97
+msgid "Yellow Light"
+msgstr "Yellow + Light Theme"
+
+#: pages/people/staff/edit.html:100 pages/people/users/edit.html:104 pages/profile.html:102
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: pages/people/staff/edit.html:103 pages/people/users/edit.html:107 pages/profile.html:104
+msgid "Opened"
+msgstr "Opened"
+
+#: pages/people/staff/edit.html:104 pages/people/users/edit.html:108 pages/profile.html:105
+msgid "Collapsed"
+msgstr "Collapsed"
+
+#: pages/people/staff/edit.html:109 pages/people/users/edit.html:113 pages/profile.html:110
+msgid "Layout"
+msgstr "Layout"
+
+#: pages/people/staff/edit.html:112 pages/people/users/edit.html:116 pages/profile.html:112
+msgid "Standard"
+msgstr "Standard"
+
+#: pages/people/staff/edit.html:113 pages/people/users/edit.html:117 pages/profile.html:113
+msgid "Fixed"
+msgstr "Fixed"
+
+#: pages/people/staff/edit.html:114 pages/people/users/edit.html:118 pages/profile.html:114
+msgid "Boxed"
+msgstr "Boxed"
+
+#: pages/people/staff/edit.html:119 pages/profile.html:49
+msgid "Signature"
+msgstr "Signature"
+
+#: pages/people/users.html:4
+msgid "Manage user accounts"
+msgstr "Manage user accounts"
+
+#: pages/people/users.html:5
+msgid "ADD USER ACCOUNT"
+msgstr "ADD USER ACCOUNT"
+
+#: pages/people/users/edit.html:4
+msgid "Edit user account"
+msgstr "Edit user account"
+
+#: pages/profile.html:4
+msgid "Edit profile"
+msgstr "Edit profile"
+
+#: pages/profile.html:5
+msgid "My Profile"
+msgstr "My Profile"
+
+#: pages/profile.html:44
+msgid "Change Password"
+msgstr "Change Password"
+
+#: pages/profile.html:45
+msgid "Enter only if you want to change"
+msgstr "Enter only if you want to change"
+
+#: pages/profile.html:54
+msgid "Confirm Password"
+msgstr "Confirm Password"
+
+#: pages/profile.html:56
+msgid "Please confirm your current password to make changes to your profile."
+msgstr "Please confirm your current password to make changes to your profile."
+
+#: pages/profile.html:121
+msgid "Avatar"
+msgstr "Avatar"
+
+#: pages/profile.html:123
+msgid "Square JPG image only, recommended size: 128x128px."
+msgstr "Square JPEG/PNG/GIF image only, recommended size: 128x128px."
+
+#: pages/profile.html:124
+msgid "Remove Avatar Image"
+msgstr "Remove Avatar Image"
+
+#: pages/projects.html:5
+msgid "Manage projects"
+msgstr "Manage projects"
+
+#: pages/projects.html:6
+msgid "NEW PROJECT"
+msgstr "NEW PROJECT"
+
+#: pages/projects/manage.html:20
+msgid "Project Summary"
+msgstr "Project Summary"
+
+#: pages/projects/manage.html:22 pages/tickets/manage.html:19
+msgid "Comments"
+msgstr "Comments"
+
+#: pages/projects/manage.html:28 pages/tickets/manage.html:26
+msgid "New Comment"
+msgstr "New Comment"
+
+#: pages/projects/manage.html:91
+msgid "Project Description"
+msgstr "Project Description"
+
+#: pages/projects/manage.html:235 pages/tickets/manage.html:198
+msgid "No comments have been added."
+msgstr "No comments have been added."
+
+#: pages/reports.html:5
+msgid "Generate and view reports"
+msgstr "Generate and view reports"
+
+#: pages/reports.html:17
+msgid "Timesheet"
+msgstr "Timesheet"
+
+#: pages/reports.html:20
+msgid "Generate a report with all the tasks in the selected period."
+msgstr "Generate a report with all the tasks in the selected period."
+
+#: pages/reports.html:26 pages/reports.html:65 pages/reports.html:108 pages/reports.html:131
+msgid "ALL"
+msgstr "ALL"
+
+#: pages/reports.html:41 pages/reports.html:80
+msgid "End Date"
+msgstr "End Date"
+
+#: pages/reports.html:50 pages/reports.html:89 pages/reports.html:118 pages/reports.html:141
+msgid "Generate"
+msgstr "Generate"
+
+#: pages/reports.html:57
+msgid "Timesheet With Summary"
+msgstr "Timesheet With Summary"
+
+#: pages/reports.html:60
+msgid "Generate a report with all the tasks in the selected period and a summary of all assets and licenses."
+msgstr "Generate a report with all the tasks in the selected period and a summary of all assets and licenses."
+
+#: pages/reports.html:100
+msgid "Client Summary"
+msgstr "Client Summary"
+
+#: pages/reports.html:103
+msgid "Generate a report with a summary of all assets and licenses assigned to a client."
+msgstr "Generate a report with a summary of all assets and licenses assigned to a client."
+
+#: pages/reports.html:123
+msgid "User Summary"
+msgstr "User Summary"
+
+#: pages/reports.html:126
+msgid "Generate a report with a summary of all assets assigned to a user."
+msgstr "Generate a report with a summary of all assets assigned to a user."
+
+#: pages/reports.html:149
+msgid "Other Reports"
+msgstr "Other Reports"
+
+#: pages/reports.html:154 pages/reports/assets.html:6
+msgid "Assets (Detailed List)"
+msgstr "Assets (Detailed List)"
+
+#: pages/reports.html:155 pages/reports/licenses.html:6
+msgid "Licenses (Detailed List)"
+msgstr "Licenses (Detailed List)"
+
+#: pages/reports/assets.html:5 pages/reports/licenses.html:5
+msgid "Detailed List"
+msgstr "Detailed List"
+
+#: pages/reports/assets.html:32 pages/reports/view.html:29 pages/reports/view.html:60 pages/reports/view.html:115 pages/reports/view.html:146
+msgid "Admin"
+msgstr "Admin"
+
+#: pages/reports/assets.html:35
+msgid "Purchase Order #"
+msgstr "Purchase Order #"
+
+#: pages/reports/view.html:11 pages/reports/view.html:97 pages/reports/view.html:244 pages/reports/view.html:330
+msgid "Date:"
+msgstr "Date:"
+
+#: pages/reports/view.html:13
+msgid "TIMESHEET"
+msgstr "TIMESHEET"
+
+#: pages/reports/view.html:16 pages/reports/view.html:102 pages/reports/view.html:249 pages/reports/view.html:335
+msgid "Date range"
+msgstr "Date range"
+
+#: pages/reports/view.html:25 pages/reports/view.html:111
+msgid "TASKS"
+msgstr "TASKS"
+
+#: pages/reports/view.html:33 pages/reports/view.html:65 pages/reports/view.html:119 pages/reports/view.html:151
+msgid "Time Spent"
+msgstr "Time Spent"
+
+#: pages/reports/view.html:34 pages/reports/view.html:66 pages/reports/view.html:120 pages/reports/view.html:152
+msgid "Date"
+msgstr "Date"
+
+#: pages/reports/view.html:45 pages/reports/view.html:78 pages/reports/view.html:131 pages/reports/view.html:164
+msgid "minutes"
+msgstr "minutes"
+
+#: pages/reports/view.html:56 pages/reports/view.html:142
+msgid "TICKETS"
+msgstr "TICKETS"
+
+#: pages/reports/view.html:62 pages/reports/view.html:148 pages/tickets/manage.html:18
+msgid "Ticket"
+msgstr "Ticket"
+
+#: pages/reports/view.html:90 pages/reports/view.html:238 pages/reports/view.html:319 pages/reports/view.html:379
+msgid "Print"
+msgstr "Print"
+
+#: pages/reports/view.html:99
+msgid "TIMESHEET WITH SUMMARRY"
+msgstr "TIMESHEET WITH SUMMARRY"
+
+#: pages/reports/view.html:177 pages/reports/view.html:258 pages/reports/view.html:344
+msgid "ASSETS"
+msgstr "ASSETS"
+
+#: pages/reports/view.html:210 pages/reports/view.html:291
+msgid "LICENSES"
+msgstr "LICENSES"
+
+#: pages/reports/view.html:215
+msgid "License Type"
+msgstr "License Type"
+
+#: pages/reports/view.html:246
+msgid "ASSETS & LICENSES SUMMARY"
+msgstr "ASSETS & LICENSES SUMMARY"
+
+#: pages/reports/view.html:332
+msgid "ASSETS SUMMARY"
+msgstr "ASSETS SUMMARY"
+
+#: pages/search.html:5
+msgid "Search system wide"
+msgstr "Search system wide"
+
+#: pages/search.html:21
+msgid "Search String..."
+msgstr "Search Text..."
+
+#: pages/search.html:91
+msgid "Knowledge Base Articles"
+msgstr "Knowledge Base Articles"
+
+#: pages/system/addToPo.html:5
+msgid "Now"
+msgstr "Now"
+
+#: pages/system/addToPo.html:7
+#, php-format
+msgid "%d second ago"
+msgid_plural "%d seconds ago"
+msgstr[0] "%d second(s) ago"
+msgstr[1] "%d second(s) ago"
+
+#: pages/system/addToPo.html:9
+#, php-format
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d minute(s) ago"
+msgstr[1] "%d minute(s) ago"
+
+#: pages/system/addToPo.html:11
+#, php-format
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d hour(s) ago"
+msgstr[1] "%d hour(s) ago"
+
+#: pages/system/addToPo.html:13
+#, php-format
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d day(s) ago"
+msgstr[1] "%d day(s) ago"
+
+#: pages/system/addToPo.html:15
+#, php-format
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d month(s) ago"
+msgstr[1] "%d month(s) ago"
+
+#: pages/system/addToPo.html:17
+#, php-format
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d year(s) ago"
+msgstr[1] "%d year(s) ago"
+
+#: pages/system/addToPo.html:19
+msgid "Error! Cannot add item."
+msgstr "Error! Cannot add item."
+
+#: pages/system/addToPo.html:20
+msgid "Error! Cannot save item."
+msgstr "Error! Cannot save item."
+
+#: pages/system/addToPo.html:21
+msgid "Error! Cannot delete item."
+msgstr "Error! Cannot delete item."
+
+#: pages/system/addToPo.html:22
+msgid "Item has been deleted successfully!"
+msgstr "Item has been deleted successfully!"
+
+#: pages/system/addToPo.html:23
+msgid "Item has been saved successfully!"
+msgstr "Item has been saved successfully!"
+
+#: pages/system/addToPo.html:24
+msgid "Item has been added successfully!"
+msgstr "Item has been added successfully!"
+
+#: pages/system/addToPo.html:25
+msgid "Settings updated successfully!"
+msgstr "Settings updated successfully!"
+
+#: pages/system/addToPo.html:26
+msgid "Authentication Failed!"
+msgstr "Authentication Failed!"
+
+#: pages/system/addToPo.html:27
+msgid "Please check your email for a password reset link."
+msgstr "Please check your email for a password reset link."
+
+#: pages/system/addToPo.html:28
+msgid "Email address was not found."
+msgstr "Email address was not found."
+
+#: pages/system/addToPo.html:29
+msgid "Invalid reset key!"
+msgstr "Invalid reset key!"
+
+#: pages/system/addToPo.html:30
+msgid "Success. Please log in with your new password!"
+msgstr "Success. Please log in with your new password!"
+
+#: pages/system/logs.html:4
+msgid "View application logs"
+msgstr "View application logs"
+
+#: pages/system/logs.html:18
+msgid "System Log"
+msgstr "System Log"
+
+#: pages/system/logs.html:19
+msgid "Email Message Log"
+msgstr "Email Message Log"
+
+#: pages/system/logs.html:20
+msgid "SMS Message Log"
+msgstr "SMS Message Log"
+
+#: pages/system/logs.html:30 pages/system/logs.html:58 pages/system/logs.html:88
+msgid "User/Admin"
+msgstr "User/Admin"
+
+#: pages/system/logs.html:31
+msgid "IP Address"
+msgstr "IP Address"
+
+#: pages/system/logs.html:33 pages/system/logs.html:62 pages/system/logs.html:92
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: pages/system/logs.html:90
+msgid "Mobile"
+msgstr "Mobile"
+
+#: pages/system/logs.html:91
+msgid "Text"
+msgstr "Text"
+
+#: pages/system/preplies.html:5
+msgid "Manage predefined replies"
+msgstr "Manage predefined replies"
+
+#: pages/system/preplies.html:6
+msgid "NEW PREDEFINED REPLY"
+msgstr "NEW PREDEFINED REPLY"
+
+#: pages/system/settings.html:4
+msgid "System configuration"
+msgstr "System configuration"
+
+#: pages/system/settings.html:18
+msgid "General"
+msgstr "General"
+
+#: pages/system/settings.html:19
+msgid "Localisation"
+msgstr "Localization"
+
+#: pages/system/settings.html:22
+msgid "Notifications"
+msgstr "Notifications"
+
+#: pages/system/settings.html:24
+msgid "Cron Jobs"
+msgstr "Cron Jobs"
+
+#: pages/system/settings.html:30
+msgid "Application Name"
+msgstr "Application Name"
+
+#: pages/system/settings.html:32
+msgid "Application Name as it appears throughout the system"
+msgstr "Application Name as it appears throughout the system"
+
+#: pages/system/settings.html:35
+msgid "Application URL"
+msgstr "Application URL"
+
+#: pages/system/settings.html:37
+msgid "Full installation URL including http:// or https:// (eg. http://mydomain.com/support/)"
+msgstr "Full installation URL including http:// or https:// (eg. http://mydomain.com/support/)"
+
+#: pages/system/settings.html:40
+msgid "Company Name"
+msgstr "Company Name"
+
+#: pages/system/settings.html:42
+msgid "Company Name as it appears throughout the system"
+msgstr "Company Name as it appears throughout the system"
+
+#: pages/system/settings.html:45
+msgid "Company Details"
+msgstr "Company Details"
+
+#: pages/system/settings.html:47
+msgid "Company Details used in the system for reports"
+msgstr "Company Details used in the system for reports"
+
+#: pages/system/settings.html:50
+msgid "Log Retention"
+msgstr "Log Retention"
+
+#: pages/system/settings.html:52
+msgid "Delete log entries older then (days)"
+msgstr "Delete log entries older then (days)"
+
+#: pages/system/settings.html:55
+msgid "Record to Display per Page"
+msgstr "Record to Display per Page"
+
+#: pages/system/settings.html:64
+msgid "Default Asset Tag Prefix"
+msgstr "Default Asset Tag Prefix"
+
+#: pages/system/settings.html:68
+msgid "Default License Tag Prefix"
+msgstr "Default License Tag Prefix"
+
+#: pages/system/settings.html:72
+msgid "Password Generator Length"
+msgstr "Password Generator Length"
+
+#: pages/system/settings.html:77 pages/system/settings.html:129 pages/system/settings.html:234 pages/system/settings.html:277
+#: pages/system/settings.html:368
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: pages/system/settings.html:92
+msgid "First Day of The Week"
+msgstr "First Day of The Week"
+
+#: pages/system/settings.html:94
+msgid "Monday"
+msgstr "Monday"
+
+#: pages/system/settings.html:95
+msgid "Sunday"
+msgstr "Sunday"
+
+#: pages/system/settings.html:99
+msgid "Default Language"
+msgstr "Default Language"
+
+#: pages/system/settings.html:108
+msgid "Timezone"
+msgstr "Time-zone"
+
+#: pages/system/settings.html:117
+msgid "Date Format"
+msgstr "Date Format"
+
+#: pages/system/settings.html:141
+msgid "Languages"
+msgstr "Languages"
+
+#: pages/system/settings.html:143
+msgid "NEW LANGUAGE"
+msgstr "NEW LANGUAGE"
+
+#: pages/system/settings.html:153
+msgid "Actions"
+msgstr "Actions"
+
+#: pages/system/settings.html:185 pages/system/settings.html:186
+msgid "Email From Address"
+msgstr "Email From Address"
+
+#: pages/system/settings.html:189 pages/system/settings.html:190
+msgid "Emails From Name"
+msgstr "Emails From Name"
+
+#: pages/system/settings.html:193
+msgid "Enable SMTP"
+msgstr "Enable SMTP"
+
+#: pages/system/settings.html:194
+msgid "SMTP Requires Authentication"
+msgstr "SMTP Requires Authentication"
+
+#: pages/system/settings.html:198
+msgid "SMTP Host"
+msgstr "SMTP Host"
+
+#: pages/system/settings.html:202
+msgid "SMTP Port"
+msgstr "SMTP Port"
+
+#: pages/system/settings.html:207
+msgid "SMTP Username"
+msgstr "SMTP Username"
+
+#: pages/system/settings.html:212
+msgid "SMTP Password"
+msgstr "SMTP Password"
+
+#: pages/system/settings.html:217
+msgid "SMTP Security"
+msgstr "SMTP Security"
+
+#: pages/system/settings.html:221 pages/system/settings.html:334
+msgid "SSL"
+msgstr "SSL"
+
+#: pages/system/settings.html:222 pages/system/settings.html:335
+msgid "TLS"
+msgstr "TLS"
+
+#: pages/system/settings.html:228
+msgid "SMTP Authentication Domain"
+msgstr "SMTP Authentication Domain"
+
+#: pages/system/settings.html:230
+msgid "Use in case of connecting to an Exchange server or similar server requiring NTLM authentication."
+msgstr "Use in case of connecting to an Exchange server or similar server requiring NTLM authentication."
+
+#: pages/system/settings.html:248
+msgid "SMS Provider"
+msgstr "SMS Provider"
+
+#: pages/system/settings.html:266
+msgid "API ID"
+msgstr "API ID"
+
+#: pages/system/settings.html:268
+msgid "Only for Clickatell"
+msgstr "Only for Clickatell"
+
+#: pages/system/settings.html:271
+msgid "From Name/Number"
+msgstr "From Name/Number"
+
+#: pages/system/settings.html:273
+msgid "Only for SMS Global"
+msgstr "Only for SMS Global"
+
+#: pages/system/settings.html:292
+msgid "New Ticket (User)"
+msgstr "New Ticket (User)"
+
+#: pages/system/settings.html:293
+msgid "New Ticket (Staff)"
+msgstr "New Ticket (Staff)"
+
+#: pages/system/settings.html:294
+msgid "New Ticket Reply (User)"
+msgstr "New Ticket Reply (User)"
+
+#: pages/system/settings.html:295
+msgid "New Ticket Reply (Staff)"
+msgstr "New Ticket Reply (Staff)"
+
+#: pages/system/settings.html:296
+msgid "Ticket Escalation (Staff)"
+msgstr "Ticket Escalation (Staff)"
+
+#: pages/system/settings.html:297
+msgid "Ticket Auto Close (User)"
+msgstr "Ticket Auto Close (User)"
+
+#: pages/system/settings.html:300
+msgid "New Account"
+msgstr "New Account"
+
+#: pages/system/settings.html:301
+msgid "Password Reset"
+msgstr "Password Reset"
+
+#: pages/system/settings.html:304
+msgid "Monitoring Notification"
+msgstr "Monitoring Notification"
+
+#: pages/system/settings.html:316
+msgid "Auto Import Tickets"
+msgstr "Auto Import Tickets"
+
+#: pages/system/settings.html:319
+msgid "Server"
+msgstr "Server"
+
+#: pages/system/settings.html:331
+msgid "Encryption"
+msgstr "Encryption"
+
+#: pages/system/settings.html:340
+msgid "Send ticket notification to users for imported emails"
+msgstr "Send ticket notification to users for imported emails"
+
+#: pages/system/settings.html:351
+msgid "New imported tickets will be assigned to this department."
+msgstr "New imported tickets will be assigned to this department."
+
+#: pages/system/settings.html:355
+msgid "Auto Close Answered Tickets"
+msgstr "Auto Close Answered Tickets"
+
+#: pages/system/settings.html:358
+msgid "Older Than"
+msgstr "Older Than"
+
+#: pages/system/settings.html:360
+msgid "Time (in hours) of inactivity after which ticket is closed (0 to disable)"
+msgstr "Time (in hours) of inactivity after which ticket is closed (0 to disable)"
+
+#: pages/system/settings.html:363
+msgid "Send auto close notification"
+msgstr "Send auto close notification"
+
+#: pages/system/settings.html:381
+msgid "Support Departments"
+msgstr "Support Departments"
+
+#: pages/system/settings.html:383
+msgid "NEW DEPARTMENT"
+msgstr "NEW DEPARTMENT"
+
+#: pages/system/settings.html:416 pages/system/settings.html:457 pages/tickets/manage.html:256
+msgid "No Records Found"
+msgstr "No Records Found"
+
+#: pages/system/settings.html:423
+msgid "Escalation Rules"
+msgstr "Escalation Rules"
+
+#: pages/system/settings.html:425
+msgid "NEW RULE"
+msgstr "NEW RULE"
+
+#: pages/system/settings.html:461
+msgid "In addition to these rules, per ticket rules can be defined in ticket view."
+msgstr "In addition to these rules, per ticket rules can be defined in ticket view."
+
+#: pages/system/settings.html:465
+msgid "Auto Close and Escalation Rules are processed in the tickets cron job."
+msgstr "Auto Close and Escalation Rules are processed in the tickets Cron job."
+
+#: pages/system/settings.html:474
+msgid "To automatically import tickets from your IMAP mailbox you need to set the following cron job:"
+msgstr "To automatically import tickets from your IMAP mailbox you need to set the following Cron job:"
+
+#: pages/system/settings.html:476
+msgid "This cron job will check your IMAP account for new ticekts, Auto Close tickets (if enabled) and process Escalation Rules (if any) every 5 minutes."
+msgstr "This Cron job will check your IMAP account for new ticekts, Auto Close tickets (if enabled) and process Escalation Rules (if any) every 5 minutes."
+
+#: pages/system/settings.html:478
+msgid "For service monitoring to work you need to set the following cron job:"
+msgstr "For service monitoring to work you need to set the following Cron job:"
+
+#: pages/system/settings.html:480
+msgid "This cron job will run monitoring tasks on all configured hosts every 5 minutes."
+msgstr "This Cron job will run monitoring tasks on all configured hosts every 5 minutes."
+
+#: pages/tickets/active.html:5
+msgid "Active support tickets"
+msgstr "Active support tickets"
+
+#: pages/tickets/all.html:5
+msgid "All support tickets"
+msgstr "All support tickets"
+
+#: pages/tickets/ar.html:5
+msgid "Awaiting reply"
+msgstr "Awaiting reply"
+
+#: pages/tickets/manage.html:21
+msgid "Rules"
+msgstr "Rules"
+
+#: pages/tickets/manage.html:24
+msgid "Predefined Reply"
+msgstr "Predefined Reply"
+
+#: pages/tickets/manage.html:27
+msgid "New Rule"
+msgstr "New Rule"
+
+#: pages/tickets/manage.html:29
+msgid "Assign to me"
+msgstr "Assign to me"
+
+#: pages/tickets/manage.html:32
+msgid "Close Ticket"
+msgstr "Close Ticket"
+
+#: pages/tickets/manage.html:36
+msgid "Reopen Ticket"
+msgstr "Reopen Ticket"
+
+#: pages/tickets/manage.html:56
+msgid "Send email notification"
+msgstr "Send email notification"
+
+#: pages/tickets/manage.html:71
+msgid "Set to Answered"
+msgstr "Set to Answered"
+
+#: pages/tickets/manage.html:72
+msgid "Set to Closed"
+msgstr "Set to Closed"
+
+#: pages/tickets/manage.html:73
+msgid "Set to In Progress"
+msgstr "Set to In Progress"
+
+#: pages/tickets/manage.html:74
+msgid "Set to Reopened"
+msgstr "Set to Reopened"
+
+#: pages/tickets/manage.html:127
+msgid "Not a registered user"
+msgstr "Not a registered user"
+
+#: pages/tickets/manage.html:136
+msgid "Your browser does not support iframes."
+msgstr "Your browser does not support iframes."
+
+#: pages/tickets/manage.html:241
+msgid "Pending"
+msgstr "Pending"
+
+#: pages/tickets/manage.html:242
+msgid "Processed"
+msgstr "Processed"
+
+#: pages/tickets/manage.html:269
+msgid "Ticket Details"
+msgstr "Ticket Details"
+
+#: pages/tickets/manage.html:301
+msgid "Created"
+msgstr "Created"
+
+#: signin.html:31
+msgid "Sign in to start your session"
+msgstr "Sign in to start your session"
+
+#: signin.html:49
+msgid "Sign In"
+msgstr "Sign In"
+
+#: signin.html:56
+msgid "Forgot your password?"
+msgstr "Forgot your password?"
+
+#: pages/reports/licenses.html:25 pages/inventory/licenses.html:28 pages/inventory/licenses/manage.html:319 pages/inventory/licenses/create.html:73
+#: pages/reports/view.html:217 #: pages/reports/view.html:300 pages/reports/licenseexpiry.html:25 pages/inventory/webservices/manage.html:47
+#: pages/inventory/webservices/manage.html:143 pages/inventory/webservices/create.html:38
+msgid "Expiry"
+msgstr "Expiry"
+
+#: pages/reports,html:158
+msgid "Licenses Expiry"
+msgstr "Licenses Expiry"
+
+#: pages/reports/licenseexpiry.html:39
+msgid "Days Left &emsp;&ddarr;"
+msgstr "Days Left &emsp;&ddarr;"
+
+#: pages/reports/licenseexpiry.html:68 pages/dashboard.html 300
+msgid "days left"
+msgstr "days left"
+
+#: pages/dashboard.html 38
+msgid "Total Licenses"
+msgstr "Total Licenses"
+
+#: pages/dashboard.html 38
+msgid "Expiring Soon"
+msgstr "Expiring Soon"
+
+#: pages/dashboard.html 304 38
+msgid "Expiring Licenses"
+msgstr "Expiring Licenses"
+
+#: pages/inventory/attributes/webservicecategories.html:5 header.html:319
+msgid "Web Service Categories"
+msgstr "Web Service Categories"
+
+#: pages/inventory/attributes/webservicecategories.html:5
+msgid "Manage web service categories"
+msgstr "Manage web service categories"
+
+#: pages/inventory/attributes/webservicecategories.html:7
+msgid "NEW WEB SERVICES CATEGORY"
+msgstr "NEW WEB SERVICES CATEGORY"
+
+#: pages/inventory/webservices/create.html:5 pages/inventory/webservices/create.html:6
+#: pages/inventory/webservices.html:5 header.html:205 pages/inventory/webservices/manage.html:7
+msgid "Web Services"
+msgstr "Web Services"
+
+#: pages/inventory/webservices/create.html:5 pages/inventory/webservices.html:5
+msgid "Manage web services"
+msgstr "Manage web services"
+
+#: pages/inventory/webservices/create.html:18
+msgid "Create New Web Service"
+msgstr "Create New Web Service"
+
+#: modals/webservicecategories/add.html:2
+msgid "New Web Service Category"
+msgstr "New Web Service Category"
+
+#: modals/webservices/delete.html:3
+msgid "Are you sure you want to delete this web service?"
+msgstr "Are you sure you want to delete this web service?"
+
+#: pages/inventory/webservices.html:6
+msgid "NEW WEB SERVICE"
+msgstr "NEW WEB SERVICE"
+
+#: pages/inventory/webservices.html:24 pages/inventory/webservices/manage.html:43 pages/inventory/webservices/manage.html:137
+#: pages/inventory/webservices/create.html:34
+msgid "Domain Name"
+msgstr "Domain Name"
+
+#: pages/inventory/webservices/manage.html:22
+msgid "Edit Web Service"
+msgstr "Edit Web Service"
+
+#: pages/inventory/webservices/manage.html:88 pages/inventory/webservices/manage.html:191 pages/inventory/webservices/create.html:64
+msgid "Remarks"
+msgstr "Remarks"
+
+#: pages/inventory/webservices/manage.html:4 pages/inventory/webservices/manage.html:8
+msgid "Web Service ID:"
+msgstr "Web Service ID:"
+
+#: pages/reports.html:159 pages/reports/webserviceexpiry.html:6 pages/reports/webserviceexpiry.html:23
+msgid "Web Services Expiry"
+msgstr "Web Services Expiry"
+
+
+#:pages/reports/webserviceexpiry.html:28 pages/reports/licenseexpiry.html:28
+msgid "Expired"
+msgstr "Expired"
+
+#:pages/reports/webserviceexpiry.html:29 pages/reports/licenseexpiry.html:29
+msgid "Needs Renew"
+msgstr "Needs Renew"
+
+#: pages/reports/webserviceexpiry.html:30 pages/reports/licenseexpiry.html:30
+msgid "No Alert"
+msgstr "No Alert"
+
+
+#: pages/dashboard.html:81 pages/dashboard.html:403
+msgid "Expiring Web Services"
+msgstr "Expiring Web Services"
+
+#: pages/dashboard.html:67
+msgid "Total Web Services"
+msgstr "Total Web Services"
+
+#: pages/dashboard.html:442
+msgid "View All Web Services"
+msgstr "View All Web Services"
+
+#: pages/dashboard.html:412
+msgid "There are no web services to display."
+msgstr "There are no web services to display."
+
+#: pages/inventory/webservices/create.html:56 pages/inventory/webservices/manage.html:55
+#: pages/inventory/webservices/manage.html:181 modals/accountnumbers/add.html:5 modals/accountnumbers/edit.html:5
+msgid "Account Number"
+msgstr "Account Number"
+
+#: modals/accountnumbers/add.html:2
+msgid "New Web Service Account"
+msgstr "New Web Service Account"
+
+#: modals/accountnumbers/add.html:9 modals/accountnumbers/edit.html:9
+msgid "Account Name"
+msgstr "Account Name"
+
+#: modals/accountnumbers/delete.html:2
+msgid "Delete Web Service Account"
+msgstr "Delete Web Service Account"
+
+#: modals/accountnumbers/edit.html:2
+msgid "Edit Web Service Account"
+msgstr "Edit Web Service Account"
+
+#: pages/inventory/attributes/accountnumbers.html:5 header.html:320
+msgid "Web Service Accounts"
+msgstr "Web Service Accounts"
+
+#: pages/inventory/attributes/accountnumbers.html:5
+msgid "Manage web service accounts"
+msgstr "Manage web service accounts"
+
+#: pages/inventory/attributes/accountnumbers.html:7
+msgid "NEW WEB SERVICE ACCOUNT"
+msgstr "NEW WEB SERVICE ACCOUNT"
+
+#: pages/header.html:128 pages/header.html:229 pages/header.html:283 pages/header.html:307 pages/header.html:318 pages/header.html:357 pages/header.html:379
+msgid "new"
+msgstr "new"
+
+#: pages/header.html:136
+msgid "all"
+msgstr "all"
+
+#: modals/projects/add.html:55 modals/projects/edit.html:55
+msgid "Project Manager"
+msgstr "Project Manager"
+
+#: dashboard.html:171
+msgid "Due"
+msgstr "Due"
