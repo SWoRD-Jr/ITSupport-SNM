@@ -129,7 +129,7 @@ switch ($_GET['modal']) {
         break;
 
 
-    // issues
+    // issues - tasks
     case "issues/add":
         if ($isAdmin) {
             $assets = getTable("assets");
